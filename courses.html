@@ -4,268 +4,254 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses - Resyvex Institute</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="bg-black text-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <span class="text-2xl font-bold text-red-600">Resyvex</span>
-                    <span class="text-lg font-semibold ml-2">Institute</span>
-                </div>
-                <div class="hidden md:flex space-x-6">
-                    <a href="index.html" class="hover:text-red-500 transition">Home</a>
-                    <a href="courses.html" class="hover:text-red-500 transition text-red-500">Courses</a>
-                    <a href="workshop.html" class="hover:text-red-500 transition">Workshop</a>
-                    <a href="guidance.html" class="hover:text-red-500 transition">Free Guidance</a>
-                    <a href="placements.html" class="hover:text-red-500 transition">Placements</a>
-                    <a href="support.html" class="hover:text-red-500 transition">Support</a>
-                    <a href="contact.html" class="hover:text-red-500 transition">Contact</a>
-                </div>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Resyvex<span>Institute</span></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </div>
-    </nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
+                <li><a href="workshop.html">Workshop</a></li>
+                <li><a href="guidance.html">Free Guidance</a></li>
+                <li><a href="placements.html">Placements</a></li>
+                <li><a href="student-support.html">Student Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Header -->
-    <section class="bg-gradient-to-r from-red-600 to-red-700 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-5xl font-bold mb-4">Master Electronics & Embedded Systems</h1>
-            <p class="text-xl text-red-100">Comprehensive courses from fundamentals to professional placement readiness</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Our Professional Courses</h1>
+        <p>Industry-relevant training programs designed to launch your career</p>
+    </section>
+
+    <!-- Courses Content -->
+    <section class="container py-2">
+        <h2 class="section-title">Course Catalog</h2>
+        <p class="section-subtitle">Explore our comprehensive range of professional courses</p>
+
+        <!-- Technical Courses -->
+        <h3 style="color: var(--primary-red); margin-top: 2rem; margin-bottom: 1rem;">Technical Courses</h3>
+        
+        <div class="course-item">
+            <h4>Web Development Mastery</h4>
+            <p>Master HTML, CSS, JavaScript, and modern frameworks. Build responsive websites and web applications with hands-on projects.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> HTML5, CSS3, JavaScript, React, Node.js, MongoDB<br>
+                <strong>Level:</strong> Beginner to Advanced
+            </div>
+            <span class="duration">6 Months | Full-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Data Science & Machine Learning</h4>
+            <p>Learn data analysis, visualization, and machine learning algorithms. Apply techniques to real-world datasets and projects.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Python, Data Analysis, ML Algorithms, TensorFlow, Visualization<br>
+                <strong>Level:</strong> Intermediate to Advanced
+            </div>
+            <span class="duration">5 Months | Full-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Python Programming</h4>
+            <p>Comprehensive Python training from basics to advanced concepts. Learn automation, scripting, and application development.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Python Basics, OOP, Algorithms, Web Frameworks, Automation<br>
+                <strong>Level:</strong> Beginner to Intermediate
+            </div>
+            <span class="duration">4 Months | Full-Time / Part-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Database & SQL Mastery</h4>
+            <p>Master database design, SQL queries, and database management systems. Learn optimization and advanced techniques.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> SQL, Database Design, MySQL, PostgreSQL, Optimization<br>
+                <strong>Level:</strong> Beginner to Intermediate
+            </div>
+            <span class="duration">3 Months | Full-Time / Part-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Cloud Computing & DevOps</h4>
+            <p>Learn cloud platforms, containerization, and DevOps practices. Deploy and manage scalable applications in the cloud.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> AWS, Azure, Docker, Kubernetes, CI/CD<br>
+                <strong>Level:</strong> Intermediate to Advanced
+            </div>
+            <span class="duration">5 Months | Full-Time</span>
+        </div>
+
+        <!-- Business Courses -->
+        <h3 style="color: var(--primary-red); margin-top: 2.5rem; margin-bottom: 1rem;">Business & Management Courses</h3>
+        
+        <div class="course-item">
+            <h4>Digital Marketing Fundamentals</h4>
+            <p>Master digital marketing strategies including SEO, social media, email marketing, and analytics to grow businesses online.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> SEO, SEM, Social Media, Email Marketing, Analytics<br>
+                <strong>Level:</strong> Beginner to Intermediate
+            </div>
+            <span class="duration">3 Months | Full-Time / Part-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Business Analytics</h4>
+            <p>Learn to analyze business data and make data-driven decisions. Master tools and techniques for business intelligence.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Excel, Tableau, Power BI, Statistical Analysis, Reporting<br>
+                <strong>Level:</strong> Beginner to Intermediate
+            </div>
+            <span class="duration">4 Months | Full-Time / Part-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Project Management Professional</h4>
+            <p>Develop skills in project planning, execution, and monitoring. Prepare for PMP and other project management certifications.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Project Planning, Risk Management, Agile, Scrum, PRINCE2<br>
+                <strong>Level:</strong> Intermediate
+            </div>
+            <span class="duration">3 Months | Part-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Financial Management</h4>
+            <p>Understand financial principles, accounting, investment strategies, and corporate finance concepts.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Accounting, Finance, Investments, Risk Management, Valuation<br>
+                <strong>Level:</strong> Intermediate
+            </div>
+            <span class="duration">4 Months | Part-Time</span>
+        </div>
+
+        <!-- Soft Skills Courses -->
+        <h3 style="color: var(--primary-red); margin-top: 2.5rem; margin-bottom: 1rem;">Soft Skills & Professional Development</h3>
+        
+        <div class="course-item">
+            <h4>Communication & Presentation Skills</h4>
+            <p>Enhance your communication abilities with practical training in public speaking, writing, and presentation techniques.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Public Speaking, Writing, Presentation, Storytelling<br>
+                <strong>Level:</strong> All Levels
+            </div>
+            <span class="duration">2 Months | Part-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Leadership & Team Management</h4>
+            <p>Develop leadership skills and learn effective team management strategies for modern organizations.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Leadership, Team Building, Conflict Resolution, Motivation<br>
+                <strong>Level:</strong> Intermediate to Advanced
+            </div>
+            <span class="duration">3 Months | Part-Time</span>
+        </div>
+
+        <div class="course-item">
+            <h4>Interview Preparation Bootcamp</h4>
+            <p>Intensive training to ace technical and HR interviews. Includes mock interviews and personalized feedback.</p>
+            <div style="color: #666; margin-top: 0.5rem;">
+                <strong>Topics:</strong> Technical Questions, HR Questions, Mock Interviews, Body Language<br>
+                <strong>Level:</strong> All Levels
+            </div>
+            <span class="duration">6 Weeks | Part-Time</span>
         </div>
     </section>
 
-    <!-- Courses Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">Our Course Categories</h2>
-                <p class="text-xl text-gray-600">Comprehensive programs from basics to advanced placement readiness</p>
-            </div>
-
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Course 1: Basic Electronics -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">🔌</div>
-                        <h3 class="text-2xl font-bold">Basic Electronics</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 2-3 months | Level: Beginner</p>
-                        <p class="text-gray-700 mb-6">Master fundamental concepts of electronics, circuit analysis, components, and practical applications.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Circuit Fundamentals</li>
-                            <li>✓ Components & Devices</li>
-                            <li>✓ Ohm's Law & Kirchhoff's</li>
-                            <li>✓ Hands-on Lab Work</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
+    <!-- Course Categories -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Why Our Courses?</h2>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry professionals with years of hands-on experience.</p>
                 </div>
-
-                <!-- Course 2: Advanced Electronics -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">⚡</div>
-                        <h3 class="text-2xl font-bold">Advanced Electronics</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 3-4 months | Level: Intermediate</p>
-                        <p class="text-gray-700 mb-6">Deep dive into analog and digital electronics with real-world circuit design and troubleshooting.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Analog Circuit Design</li>
-                            <li>✓ Digital Logic Circuits</li>
-                            <li>✓ Oscilloscope & Testing</li>
-                            <li>✓ Complex Projects</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
+                <div class="card">
+                    <h3>Practical Projects</h3>
+                    <p>Work on real-world projects to build a strong portfolio.</p>
                 </div>
-
-                <!-- Course 3: PCB Design and Simulation -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">🖥️</div>
-                        <h3 class="text-2xl font-bold">PCB Design & Simulation</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 3-4 months | Level: Intermediate</p>
-                        <p class="text-gray-700 mb-6">Professional PCB design using industry-standard tools, from schematic to manufacturing-ready layouts.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ KiCAD & Eagle</li>
-                            <li>✓ Schematic Design</li>
-                            <li>✓ PCB Layout & Routing</li>
-                            <li>✓ Manufacturing Specs</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
+                <div class="card">
+                    <h3>Job Guarantee</h3>
+                    <p>100% placement assistance and job guarantee after course completion.</p>
                 </div>
-
-                <!-- Course 4: Embedded Systems -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">🤖</div>
-                        <h3 class="text-2xl font-bold">Embedded Systems</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 4-5 months | Level: Advanced</p>
-                        <p class="text-gray-700 mb-6">Master microcontroller programming, IoT, real-time systems, and embedded applications.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Microcontroller Programming</li>
-                            <li>✓ ARM & Arduino</li>
-                            <li>✓ IoT & Communication</li>
-                            <li>✓ Real-time Projects</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
+                <div class="card">
+                    <h3>Flexible Schedules</h3>
+                    <p>Choose full-time, part-time, or online modes that suit your lifestyle.</p>
                 </div>
-
-                <!-- Course 5: Semiconductor Fundamentals -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">🧬</div>
-                        <h3 class="text-2xl font-bold">Semiconductor Fundamentals</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 2-3 months | Level: Beginner</p>
-                        <p class="text-gray-700 mb-6">Understand semiconductor physics, device operation, and practical applications in modern electronics.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Semiconductor Physics</li>
-                            <li>✓ Diodes & Transistors</li>
-                            <li>✓ Device Characteristics</li>
-                            <li>✓ Practical Applications</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
+                <div class="card">
+                    <h3>Certifications</h3>
+                    <p>Industry-recognized certificates that enhance your credentials.</p>
                 </div>
-
-                <!-- Course 6: ECE Subject Support -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">📚</div>
-                        <h3 class="text-2xl font-bold">ECE Subject Support</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: Flexible | Level: All</p>
-                        <p class="text-gray-700 mb-6">Comprehensive support for core ECE subjects including signals, systems, and communications.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Signals & Systems</li>
-                            <li>✓ Communications</li>
-                            <li>✓ Control Systems</li>
-                            <li>✓ Power Electronics</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
-                </div>
-
-                <!-- Course 7: Mini Projects & Final Year Prep -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">🏗️</div>
-                        <h3 class="text-2xl font-bold">Mini Projects & FYP Prep</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 2-4 months | Level: Intermediate+</p>
-                        <p class="text-gray-700 mb-6">Hands-on project experience and guidance for final year projects with portfolio building.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Mini Project Ideas</li>
-                            <li>✓ Prototype Development</li>
-                            <li>✓ FYP Guidance</li>
-                            <li>✓ Portfolio Creation</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
-                </div>
-
-                <!-- Course 8: Interview & Placement Readiness -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">💼</div>
-                        <h3 class="text-2xl font-bold">Interview & Placement</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 2-3 months | Level: Advanced</p>
-                        <p class="text-gray-700 mb-6">Intensive preparation for interviews, resume building, and company-specific placement guidance.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Technical Interview Prep</li>
-                            <li>✓ HR Techniques</li>
-                            <li>✓ Resume Writing</li>
-                            <li>✓ Placement Assistance</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
-                </div>
-
-                <!-- Course 9: Workshop Programs -->
-                <div class="bg-white border-t-4 border-red-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <div class="bg-gradient-to-r from-red-50 to-red-100 p-6 text-center">
-                        <div class="text-5xl mb-3">🛠️</div>
-                        <h3 class="text-2xl font-bold">Workshop Programs</h3>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4 font-semibold">Duration: 1-2 weeks | Level: All</p>
-                        <p class="text-gray-700 mb-6">Intensive short-term workshops on specialized topics including soldering, testing, and troubleshooting.</p>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li>✓ Soldering Techniques</li>
-                            <li>✓ Testing & Measurement</li>
-                            <li>✓ Troubleshooting</li>
-                            <li>✓ Hands-on Training</li>
-                        </ul>
-                        <button class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-lg transition font-semibold">Enroll Now</button>
-                    </div>
+                <div class="card">
+                    <h3>Lifetime Support</h3>
+                    <p>Ongoing support and resources even after you complete the course.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="bg-black text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-4">Choose Your Learning Path</h2>
-            <p class="text-xl text-gray-300 mb-8">Get free consultation with our mentors to select the perfect course for your goals</p>
-            <a href="guidance.html" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold inline-block transition">Free Guidance Session</a>
-        </div>
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Enroll in Your Desired Course Today</h2>
+        <p style="margin-bottom: 2rem;">Start your professional journey with us</p>
+        <a href="contact.html" class="btn btn-primary">Get More Information</a>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <h3 class="text-xl font-bold text-red-600 mb-4">Resyvex Institute</h3>
-                    <p class="text-gray-400">Practical training in electronics, PCB design, and semiconductor technology.</p>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Resyvex Institute is a premier educational institution dedicated to providing world-class education and professional training.</p>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Courses</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="courses.html" class="hover:text-red-500">Electronics</a></li>
-                        <li><a href="courses.html" class="hover:text-red-500">PCB Design</a></li>
-                        <li><a href="courses.html" class="hover:text-red-500">Embedded Systems</a></li>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="workshop.html">Workshop</a></li>
+                        <li><a href="guidance.html">Free Guidance</a></li>
+                        <li><a href="placements.html">Placements</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Resources</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="guidance.html" class="hover:text-red-500">Free Guidance</a></li>
-                        <li><a href="workshop.html" class="hover:text-red-500">Workshops</a></li>
-                        <li><a href="support.html" class="hover:text-red-500">Support</a></li>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Legal & Contact</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="contact.html" class="hover:text-red-500">Contact Us</a></li>
-                        <li><a href="terms.html" class="hover:text-red-500">Terms</a></li>
-                        <li><a href="privacy.html" class="hover:text-red-500">Privacy</a></li>
-                    </ul>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Education Street, City, State 12345</p>
+                    <p>📞 +1 (800) 123-4567</p>
+                    <p>📧 info@resyvexinstitute.com</p>
                 </div>
             </div>
-            <hr class="border-gray-700 my-8">
-            <div class="text-center text-gray-400">
-                <p>&copy; 2026 Resyvex Institute. All rights reserved. | Excellence in Electronics Education</p>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Resyvex Institute. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

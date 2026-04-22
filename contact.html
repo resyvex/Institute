@@ -3,175 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Resyvex Institute</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Contact - Resyvex Institute</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="bg-black text-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <span class="text-2xl font-bold text-red-600">Resyvex</span>
-                    <span class="text-lg font-semibold ml-2">Institute</span>
-                </div>
-                <div class="hidden md:flex space-x-6">
-                    <a href="index.html" class="hover:text-red-500 transition">Home</a>
-                    <a href="courses.html" class="hover:text-red-500 transition">Courses</a>
-                    <a href="workshop.html" class="hover:text-red-500 transition">Workshop</a>
-                    <a href="guidance.html" class="hover:text-red-500 transition">Free Guidance</a>
-                    <a href="placements.html" class="hover:text-red-500 transition">Placements</a>
-                    <a href="support.html" class="hover:text-red-500 transition">Support</a>
-                    <a href="contact.html" class="hover:text-red-500 transition text-red-500">Contact</a>
-                </div>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Resyvex<span>Institute</span></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </div>
-    </nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="workshop.html">Workshop</a></li>
+                <li><a href="guidance.html">Free Guidance</a></li>
+                <li><a href="placements.html">Placements</a></li>
+                <li><a href="student-support.html">Student Support</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Header -->
-    <section class="bg-gradient-to-r from-red-600 to-red-700 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-5xl font-bold mb-4">Contact Us</h1>
-            <p class="text-xl text-red-100">Get in touch with our team - we'd love to hear from you</p>
-        </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Get In Touch With Us</h1>
+        <p>We'd love to hear from you. Contact us for any inquiries or to learn more about our programs</p>
     </section>
 
-    <!-- Contact Section -->
-    <section class="py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-12">
-                <!-- Contact Form -->
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-2xl font-bold mb-6">Send us a Message</h2>
-                    <form>
-                        <div class="mb-6">
-                            <label class="block text-gray-700 font-semibold mb-2">Name</label>
-                            <input type="text" placeholder="Your full name" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-red-600">
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-gray-700 font-semibold mb-2">Email</label>
-                            <input type="email" placeholder="your@email.com" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-red-600">
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-gray-700 font-semibold mb-2">Phone</label>
-                            <input type="tel" placeholder="+91-XXXX-XXXX-XXX" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-red-600">
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-gray-700 font-semibold mb-2">Subject</label>
-                            <input type="text" placeholder="How can we help?" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-red-600">
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-gray-700 font-semibold mb-2">Message</label>
-                            <textarea placeholder="Your message here..." rows="5" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-red-600"></textarea>
-                        </div>
-                        <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition">Send Message</button>
-                    </form>
-                </div>
+    <!-- Contact Information Section -->
+    <section class="container py-2">
+        <div class="card-grid">
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 3rem; color: var(--primary-red); margin-bottom: 1rem;">📍</div>
+                <h3>Our Location</h3>
+                <p><strong>Resyvex Institute</strong><br>
+                123 Education Street<br>
+                City, State 12345<br>
+                Country</p>
+            </div>
 
-                <!-- Contact Information -->
-                <div>
-                    <h2 class="text-2xl font-bold mb-8">Get in Touch</h2>
-                    
-                    <div class="bg-white rounded-lg shadow-lg p-8 mb-6 border-l-4 border-red-600">
-                        <div class="flex items-start">
-                            <div class="text-3xl text-red-600 mr-4">📍</div>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2">Address</h3>
-                                <p class="text-gray-600">123 Tech Park, Innovation Drive,<br>Silicon Valley, New Delhi - 110001<br>India</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 3rem; color: var(--primary-red); margin-bottom: 1rem;">📞</div>
+                <h3>Phone Numbers</h3>
+                <p><strong>Main Office:</strong> +1 (800) 123-4567<br>
+                <strong>Support Line:</strong> +1 (800) 987-6543<br>
+                <strong>Admissions:</strong> +1 (800) 654-3210</p>
+            </div>
 
-                    <div class="bg-white rounded-lg shadow-lg p-8 mb-6 border-l-4 border-red-600">
-                        <div class="flex items-start">
-                            <div class="text-3xl text-red-600 mr-4">📞</div>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2">Phone</h3>
-                                <p class="text-gray-600"><strong>Main:</strong> +91-XXXX-XXXX-001</p>
-                                <p class="text-gray-600"><strong>Support:</strong> +91-XXXX-XXXX-002</p>
-                                <p class="text-gray-600"><strong>Admissions:</strong> +91-XXXX-XXXX-003</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 3rem; color: var(--primary-red); margin-bottom: 1rem;">📧</div>
+                <h3>Email Address</h3>
+                <p><strong>General Inquiries:</strong><br>
+                info@resyvexinstitute.com<br><br>
+                <strong>Admissions:</strong><br>
+                admissions@resyvexinstitute.com</p>
+            </div>
 
-                    <div class="bg-white rounded-lg shadow-lg p-8 mb-6 border-l-4 border-red-600">
-                        <div class="flex items-start">
-                            <div class="text-3xl text-red-600 mr-4">✉️</div>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2">Email</h3>
-                                <p class="text-gray-600"><strong>General:</strong> info@resyvex.com</p>
-                                <p class="text-gray-600"><strong>Support:</strong> support@resyvex.com</p>
-                                <p class="text-gray-600"><strong>Admissions:</strong> admissions@resyvex.com</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-red-600">
-                        <div class="flex items-start">
-                            <div class="text-3xl text-red-600 mr-4">🕐</div>
-                            <div>
-                                <h3 class="font-bold text-lg mb-2">Office Hours</h3>
-                                <p class="text-gray-600"><strong>Mon - Fri:</strong> 9:00 AM - 6:00 PM</p>
-                                <p class="text-gray-600"><strong>Sat:</strong> 10:00 AM - 4:00 PM</p>
-                                <p class="text-gray-600"><strong>Sun:</strong> Closed</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 3rem; color: var(--primary-red); margin-bottom: 1rem;">⏰</div>
+                <h3>Working Hours</h3>
+                <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br>
+                <strong>Saturday:</strong> 10:00 AM - 4:00 PM<br>
+                <strong>Sunday:</strong> Closed</p>
             </div>
         </div>
     </section>
 
-    <!-- Social Media -->
-    <section class="bg-gray-50 py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-12 text-center">Follow Us</h2>
-            <div class="flex justify-center gap-8">
-                <a href="#" class="w-16 h-16 bg-black rounded-full flex items-center justify-center text-white hover:bg-red-600 transition text-2xl">f</a>
-                <a href="#" class="w-16 h-16 bg-black rounded-full flex items-center justify-center text-white hover:bg-red-600 transition text-2xl">𝕏</a>
-                <a href="#" class="w-16 h-16 bg-black rounded-full flex items-center justify-center text-white hover:bg-red-600 transition text-2xl">in</a>
-                <a href="#" class="w-16 h-16 bg-black rounded-full flex items-center justify-center text-white hover:bg-red-600 transition text-2xl">📷</a>
-                <a href="#" class="w-16 h-16 bg-black rounded-full flex items-center justify-center text-white hover:bg-red-600 transition text-2xl">▶</a>
+    <!-- Contact Form Section -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <p class="section-subtitle">Fill out the form below and we'll get back to you shortly</p>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" required placeholder="What is this regarding?">
+                </div>
+
+                <div class="form-group">
+                    <label for="inquiry">Inquiry Type</label>
+                    <select id="inquiry" name="inquiry">
+                        <option value="">Select an inquiry type</option>
+                        <option value="course-info">Course Information</option>
+                        <option value="admission">Admission</option>
+                        <option value="placement">Placement</option>
+                        <option value="guidance">Free Guidance</option>
+                        <option value="workshop">Workshop Registration</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required placeholder="Enter your message here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="container py-2">
+        <h2 class="section-title">Connect With Us</h2>
+        <p class="section-subtitle">Follow us on social media for updates and announcements</p>
+
+        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+            <a href="#" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark); text-decoration: none; font-weight: 500; transition: var(--transition);" onmouseover="this.style.color='var(--primary-red)'" onmouseout="this.style.color='var(--text-dark)'">
+                <span style="font-size: 1.5rem;">f</span> Facebook
+            </a>
+            <a href="#" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark); text-decoration: none; font-weight: 500; transition: var(--transition);" onmouseover="this.style.color='var(--primary-red)'" onmouseout="this.style.color='var(--text-dark)'">
+                <span style="font-size: 1.5rem;">𝕏</span> Twitter
+            </a>
+            <a href="#" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark); text-decoration: none; font-weight: 500; transition: var(--transition);" onmouseover="this.style.color='var(--primary-red)'" onmouseout="this.style.color='var(--text-dark)'">
+                <span style="font-size: 1.5rem;">📷</span> Instagram
+            </a>
+            <a href="#" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark); text-decoration: none; font-weight: 500; transition: var(--transition);" onmouseover="this.style.color='var(--primary-red)'" onmouseout="this.style.color='var(--text-dark)'">
+                <span style="font-size: 1.5rem;">in</span> LinkedIn
+            </a>
+            <a href="#" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-dark); text-decoration: none; font-weight: 500; transition: var(--transition);" onmouseover="this.style.color='var(--primary-red)'" onmouseout="this.style.color='var(--text-dark)'">
+                <span style="font-size: 1.5rem;">▶</span> YouTube
+            </a>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Visit Our Center</h2>
+            <p class="section-subtitle">We're conveniently located and easily accessible</p>
+
+            <div style="background-color: white; border-radius: var(--border-radius); overflow: hidden; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); height: 400px;">
+                <!-- You can embed a map here using Google Maps or similar service -->
+                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%); display: flex; align-items: center; justify-content: center; color: #999;">
+                    <div style="text-align: center;">
+                        <p style="font-size: 3rem; margin-bottom: 1rem;">🗺️</p>
+                        <p style="font-size: 1.1rem;">Map Location - Embed your map here</p>
+                        <p style="color: #666; margin-top: 0.5rem;">123 Education Street, City, State 12345</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container py-2">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">How can I get more information about courses?</h4>
+                <p>You can fill out the contact form above, call us directly, or visit our center in person. We'll provide you with detailed information about all our courses.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">What is the admission process?</h4>
+                <p>Our admission process is simple and straightforward. Contact us for course details, schedule a free guidance session, and complete the enrollment form.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Do you offer online courses?</h4>
+                <p>Yes, we offer both online and offline courses. You can choose the mode that best suits your lifestyle and schedule.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Can I schedule a campus tour?</h4>
+                <p>Absolutely! Contact us to schedule a campus tour. We'd love to show you our facilities and meet you in person.</p>
+            </div>
+
+            <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">How long does it take to get a response?</h4>
+                <p>We aim to respond to all inquiries within 24 hours. For urgent matters, please call us directly.</p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <h3 class="text-xl font-bold text-red-600 mb-4">Resyvex Institute</h3>
-                    <p class="text-gray-400">Empowering minds, building futures.</p>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Resyvex Institute is a premier educational institution dedicated to providing world-class education and professional training.</p>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="index.html" class="hover:text-red-500">Home</a></li>
-                        <li><a href="courses.html" class="hover:text-red-500">Courses</a></li>
-                        <li><a href="contact.html" class="hover:text-red-500">Contact</a></li>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="workshop.html">Workshop</a></li>
+                        <li><a href="guidance.html">Free Guidance</a></li>
+                        <li><a href="placements.html">Placements</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Resources</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="guidance.html" class="hover:text-red-500">Free Guidance</a></li>
-                        <li><a href="support.html" class="hover:text-red-500">Support</a></li>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Legal</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="terms.html" class="hover:text-red-500">Terms</a></li>
-                        <li><a href="privacy.html" class="hover:text-red-500">Privacy</a></li>
-                    </ul>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Education Street, City, State 12345</p>
+                    <p>📞 +1 (800) 123-4567</p>
+                    <p>📧 info@resyvexinstitute.com</p>
                 </div>
             </div>
-            <hr class="border-gray-700 my-8">
-            <div class="text-center text-gray-400">
-                <p>&copy; 2026 Resyvex Institute. All rights reserved.</p>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Resyvex Institute. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

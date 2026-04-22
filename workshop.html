@@ -3,319 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshops - Resyvex Institute</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Workshop & Seminars - Resyvex Institute</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <div style="display: flex; align-items: center;">
-                    <span class="navbar-brand">Resyvex</span>
-                    <span style="margin-left: 0.5rem; font-weight: 600;">Institute</span>
-                </div>
-                <ul class="navbar-menu">
-                    <li><a href="index.html" class="navbar-link">Home</a></li>
-                    <li><a href="courses.html" class="navbar-link">Courses</a></li>
-                    <li><a href="workshop.html" class="navbar-link" style="color: var(--primary-color);">Workshops</a></li>
-                    <li><a href="guidance.html" class="navbar-link">Guidance</a></li>
-                    <li><a href="placements.html" class="navbar-link">Placements</a></li>
-                    <li><a href="support.html" class="navbar-link">Support</a></li>
-                    <li><a href="contact.html" class="navbar-link">Contact</a></li>
-                </ul>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Resyvex<span>Institute</span></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </div>
-    </nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="workshop.html" class="active">Workshop</a></li>
+                <li><a href="guidance.html">Free Guidance</a></li>
+                <li><a href="placements.html">Placements</a></li>
+                <li><a href="student-support.html">Student Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
-    <section class="hero" style="padding: 4rem 0;">
-        <div class="container">
-            <h1 class="hero-title">Workshops & Seminars</h1>
-            <p class="hero-subtitle" style="color: rgba(255, 255, 255, 0.8);">Intensive training sessions for skill enhancement</p>
+    <section class="hero">
+        <h1>Workshops & Seminars</h1>
+        <p>Interactive sessions with industry experts to enhance your skills</p>
+    </section>
+
+    <!-- Workshop Introduction -->
+    <section class="container py-2">
+        <h2 class="section-title">Upcoming Workshops & Seminars</h2>
+        <p class="section-subtitle">Enhance your knowledge with practical, hands-on sessions led by industry experts</p>
+
+        <div class="feature-item" style="margin-bottom: 2rem;">
+            <div class="feature-icon">📚</div>
+            <div class="feature-content">
+                <h4>What are Our Workshops?</h4>
+                <p>Our workshops are intensive, interactive sessions designed to provide practical knowledge and hands-on experience in specific areas. Led by industry experts, these sessions cover the latest trends, tools, and best practices in various fields.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Free & Paid Workshops Overview -->
-    <section class="section">
+    <!-- Upcoming Workshops -->
+    <section class="bg-light py-2">
         <div class="container">
-            <h2 class="section-title">Our Workshop Programs</h2>
-            <div class="grid grid-2" style="margin-top: 3rem;">
-                <!-- Free Workshops Card -->
-                <div class="card card-accent">
-                    <div class="card-header" style="background: linear-gradient(135deg, var(--accent-green), #059669);">
-                        <h3 style="color: white; margin: 0;">Free Workshops</h3>
-                    </div>
-                    <div class="card-body">
-                        <p style="font-weight: 600; margin-bottom: 1rem; color: var(--accent-green);">Beginner-Friendly Sessions</p>
-                        <ul class="list-unstyled">
-                            <li class="list-item">✓ Introduction to Electronics Basics</li>
-                            <li class="list-item">✓ PCB Design Fundamentals</li>
-                            <li class="list-item">✓ Soldering Techniques 101</li>
-                            <li class="list-item">✓ Troubleshooting Common Issues</li>
-                            <li class="list-item">✓ Career Guidance Sessions</li>
-                        </ul>
-                        <p style="margin-top: 1.5rem; font-size: 0.875rem; color: var(--text-gray);">Duration: 1-2 hours | Frequency: Weekly</p>
-                        <a href="#register" class="btn btn-outline" style="display: block; text-align: center; margin-top: 1.5rem;">Register for Free</a>
-                    </div>
-                </div>
+            <h2 class="section-title">This Month's Featured Workshops</h2>
 
-                <!-- Paid Workshops Card -->
-                <div class="card card-accent">
-                    <div class="card-header" style="background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));">
-                        <h3 style="color: white; margin: 0;">Paid Workshops</h3>
-                    </div>
-                    <div class="card-body">
-                        <p style="font-weight: 600; margin-bottom: 1rem; color: var(--primary-color);">Advanced Professional Training</p>
-                        <ul class="list-unstyled">
-                            <li class="list-item">✓ Advanced PCB Layout & Design</li>
-                            <li class="list-item">✓ Embedded Systems Development</li>
-                            <li class="list-item">✓ Microcontroller Programming</li>
-                            <li class="list-item">✓ Industry-Standard Tool Mastery</li>
-                            <li class="list-item">✓ Certification & Portfolio Building</li>
-                        </ul>
-                        <p style="margin-top: 1.5rem; font-size: 0.875rem; color: var(--text-gray);">Duration: 3-5 days | Certificate included</p>
-                        <a href="#register" class="btn btn-primary" style="display: block; text-align: center; margin-top: 1.5rem;">Explore Programs</a>
-                    </div>
+            <div class="workshop-item">
+                <h4>AI & Machine Learning in Business</h4>
+                <p>Discover how AI and machine learning are transforming businesses across industries. Learn practical applications and implementation strategies.</p>
+                <div style="color: #666; margin-top: 0.5rem;">
+                    <strong>Date:</strong> April 28, 2024 | <strong>Time:</strong> 10:00 AM - 1:00 PM<br>
+                    <strong>Instructor:</strong> Dr. Rajesh Kumar | <strong>Seats:</strong> 50 Available
+                </div>
+                <span class="duration">3 Hours | Beginner to Intermediate</span>
+            </div>
+
+            <div class="workshop-item">
+                <h4>Web Security & Ethical Hacking Basics</h4>
+                <p>Learn the fundamentals of web security, common vulnerabilities, and ethical hacking techniques to protect web applications.</p>
+                <div style="color: #666; margin-top: 0.5rem;">
+                    <strong>Date:</strong> May 3, 2024 | <strong>Time:</strong> 2:00 PM - 5:00 PM<br>
+                    <strong>Instructor:</strong> Priya Sharma | <strong>Seats:</strong> 40 Available
+                </div>
+                <span class="duration">3 Hours | Intermediate</span>
+            </div>
+
+            <div class="workshop-item">
+                <h4>Effective Remote Team Management</h4>
+                <p>Master strategies for managing remote teams, maintaining productivity, and fostering collaboration in a distributed workforce.</p>
+                <div style="color: #666; margin-top: 0.5rem;">
+                    <strong>Date:</strong> May 5, 2024 | <strong>Time:</strong> 11:00 AM - 2:00 PM<br>
+                    <strong>Instructor:</strong> Arun Patel | <strong>Seats:</strong> 35 Available
+                </div>
+                <span class="duration">3 Hours | All Levels</span>
+            </div>
+
+            <div class="workshop-item">
+                <h4>Advanced Excel for Data Analysis</h4>
+                <p>Master advanced Excel functions, pivot tables, and data visualization techniques for professional data analysis.</p>
+                <div style="color: #666; margin-top: 0.5rem;">
+                    <strong>Date:</strong> May 8, 2024 | <strong>Time:</strong> 3:00 PM - 6:00 PM<br>
+                    <strong>Instructor:</strong> Neha Singh | <strong>Seats:</strong> 45 Available
+                </div>
+                <span class="duration">3 Hours | Beginner to Intermediate</span>
+            </div>
+
+            <div class="workshop-item">
+                <h4>Cloud Migration Strategies</h4>
+                <p>Learn best practices for migrating applications and infrastructure to cloud platforms like AWS and Azure.</p>
+                <div style="color: #666; margin-top: 0.5rem;">
+                    <strong>Date:</strong> May 12, 2024 | <strong>Time:</strong> 10:00 AM - 1:00 PM<br>
+                    <strong>Instructor:</strong> Vikram Desai | <strong>Seats:</strong> 30 Available
+                </div>
+                <span class="duration">3 Hours | Intermediate to Advanced</span>
+            </div>
+
+            <div class="workshop-item">
+                <h4>Digital Marketing Trends 2024</h4>
+                <p>Stay updated with the latest digital marketing trends, strategies, and tools shaping the industry in 2024.</p>
+                <div style="color: #666; margin-top: 0.5rem;">
+                    <strong>Date:</strong> May 15, 2024 | <strong>Time:</strong> 2:00 PM - 5:00 PM<br>
+                    <strong>Instructor:</strong> Anjali Verma | <strong>Seats:</strong> 50 Available
+                </div>
+                <span class="duration">3 Hours | Beginner to Intermediate</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Seminars -->
+    <section class="container py-2">
+        <h2 class="section-title">Past Seminars & Feedback</h2>
+        <p class="section-subtitle">See what our participants learned and experienced</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>Mobile App Development</h3>
+                <p><strong>Date:</strong> March 15, 2024<br>
+                <strong>Attendees:</strong> 65+ Participants<br><br>
+                A comprehensive workshop on iOS and Android app development using modern frameworks and tools.</p>
+                <div style="margin-top: 1rem; color: var(--primary-red);">
+                    ⭐⭐⭐⭐⭐ 4.8/5 Rating
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>DevOps & CI/CD Pipeline</h3>
+                <p><strong>Date:</strong> March 22, 2024<br>
+                <strong>Attendees:</strong> 50+ Participants<br><br>
+                Practical session on setting up and managing CI/CD pipelines using Jenkins, GitLab, and Docker.</p>
+                <div style="margin-top: 1rem; color: var(--primary-red);">
+                    ⭐⭐⭐⭐⭐ 4.9/5 Rating
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>UI/UX Design Principles</h3>
+                <p><strong>Date:</strong> March 29, 2024<br>
+                <strong>Attendees:</strong> 45+ Participants<br><br>
+                An interactive session on creating user-friendly and visually appealing interfaces.</p>
+                <div style="margin-top: 1rem; color: var(--primary-red);">
+                    ⭐⭐⭐⭐⭐ 4.7/5 Rating
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Upcoming Sessions -->
-    <section class="section section-light">
+    <!-- Workshop Benefits -->
+    <section class="features bg-light">
         <div class="container">
-            <h2 class="section-title">Upcoming Sessions</h2>
-            <p class="section-subtitle">Register now for limited seats</p>
-            <div class="grid grid-2" style="margin-top: 2rem;">
-                <!-- Session 1 -->
-                <div class="card">
-                    <div class="card-body">
-                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
-                            <div>
-                                <h3 style="color: var(--primary-color); font-size: 1.25rem; margin: 0;">Advanced PCB Design</h3>
-                                <p style="color: var(--text-gray); margin: 0.5rem 0 0 0;">Professional Level</p>
-                            </div>
-                            <span class="badge badge-primary">PAID</span>
-                        </div>
-                        <p style="margin: 1rem 0; font-weight: 600;">📅 May 15-19, 2026</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0;">⏱️ 9:00 AM - 6:00 PM | 5 Days</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0 1.5rem 0;">📍 Hybrid (Online + Offline)</p>
-                        <p style="font-weight: 600; margin-bottom: 1rem;">₹15,000 | Limited to 20 students</p>
-                        <a href="#register" class="btn btn-primary" style="display: block; text-align: center;">Register Now</a>
-                    </div>
-                </div>
+            <h2 class="section-title">Benefits of Attending Our Workshops</h2>
 
-                <!-- Session 2 -->
-                <div class="card">
-                    <div class="card-body">
-                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
-                            <div>
-                                <h3 style="color: var(--accent-green); font-size: 1.25rem; margin: 0;">Electronics Basics</h3>
-                                <p style="color: var(--text-gray); margin: 0.5rem 0 0 0;">Beginner Friendly</p>
-                            </div>
-                            <span class="badge badge-success">FREE</span>
-                        </div>
-                        <p style="margin: 1rem 0; font-weight: 600;">📅 May 22, 2026</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0;">⏱️ 6:00 PM - 8:00 PM | 2 Hours</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0 1.5rem 0;">📍 Online</p>
-                        <p style="font-weight: 600; margin-bottom: 1rem;">FREE | Open for all</p>
-                        <a href="#register" class="btn btn-outline" style="display: block; text-align: center;">Register Free</a>
-                    </div>
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Learn from Experts</h4>
+                    <p>Get insights directly from industry professionals with real-world experience.</p>
                 </div>
+            </div>
 
-                <!-- Session 3 -->
-                <div class="card">
-                    <div class="card-body">
-                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
-                            <div>
-                                <h3 style="color: var(--primary-color); font-size: 1.25rem; margin: 0;">Embedded Systems</h3>
-                                <p style="color: var(--text-gray); margin: 0.5rem 0 0 0;">Intermediate Level</p>
-                            </div>
-                            <span class="badge badge-primary">PAID</span>
-                        </div>
-                        <p style="margin: 1rem 0; font-weight: 600;">📅 June 1-5, 2026</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0;">⏱️ 10:00 AM - 5:00 PM | 5 Days</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0 1.5rem 0;">📍 Offline</p>
-                        <p style="font-weight: 600; margin-bottom: 1rem;">₹12,000 | Limited to 15 students</p>
-                        <a href="#register" class="btn btn-primary" style="display: block; text-align: center;">Register Now</a>
-                    </div>
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Hands-On Experience</h4>
+                    <p>Work on practical exercises and real-world projects during the workshop.</p>
                 </div>
+            </div>
 
-                <!-- Session 4 -->
-                <div class="card">
-                    <div class="card-body">
-                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
-                            <div>
-                                <h3 style="color: var(--accent-green); font-size: 1.25rem; margin: 0;">Soldering & Testing</h3>
-                                <p style="color: var(--text-gray); margin: 0.5rem 0 0 0;">Hands-on Workshop</p>
-                            </div>
-                            <span class="badge badge-success">FREE</span>
-                        </div>
-                        <p style="margin: 1rem 0; font-weight: 600;">📅 June 10, 2026</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0;">⏱️ 2:00 PM - 5:00 PM | 3 Hours</p>
-                        <p style="color: var(--text-gray); margin: 0.5rem 0 1.5rem 0;">📍 Offline</p>
-                        <p style="font-weight: 600; margin-bottom: 1rem;">FREE | Limited to 10 students</p>
-                        <a href="#register" class="btn btn-outline" style="display: block; text-align: center;">Register Free</a>
-                    </div>
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Networking Opportunities</h4>
+                    <p>Connect with like-minded professionals and build valuable relationships.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Certificates</h4>
+                    <p>Receive participation certificates to add to your professional portfolio.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Latest Tools & Technologies</h4>
+                    <p>Learn about and work with the latest industry tools and technologies.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Affordable Pricing</h4>
+                    <p>Quality education at reasonable prices with flexible payment options.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Certificates Section -->
-    <section class="section" style="background: linear-gradient(135deg, rgba(220, 38, 38, 0.05), rgba(0, 0, 0, 0.05));">
-        <div class="container">
-            <h2 class="section-title">Certificates & Recognition</h2>
-            <p class="section-subtitle">Validate your expertise</p>
-            <div class="grid grid-3" style="margin-top: 2rem;">
-                <div class="card">
-                    <div class="card-header" style="background: var(--primary-color); text-align: center;">
-                        <span style="font-size: 3rem;">🏆</span>
-                        <h3 style="color: white; margin: 0.5rem 0 0 0;">Completion Certificate</h3>
-                    </div>
-                    <div class="card-body">
-                        <p style="text-align: center; color: var(--text-gray); margin-bottom: 1rem;">Official recognition from Resyvex Institute</p>
-                        <ul class="list-unstyled" style="text-align: center;">
-                            <li class="list-item" style="text-align: center;">✓ Digital & Printed</li>
-                            <li class="list-item" style="text-align: center;">✓ LinkedIn Verified</li>
-                            <li class="list-item" style="text-align: center;">✓ Lifetime Valid</li>
-                        </ul>
-                        <p style="font-size: 0.875rem; color: var(--text-gray); margin-top: 1rem;">For all paid workshops</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" style="background: var(--accent-green); text-align: center;">
-                        <span style="font-size: 3rem;">⭐</span>
-                        <h3 style="color: white; margin: 0.5rem 0 0 0;">Performance Certificate</h3>
-                    </div>
-                    <div class="card-body">
-                        <p style="text-align: center; color: var(--text-gray); margin-bottom: 1rem;">For outstanding performance</p>
-                        <ul class="list-unstyled" style="text-align: center;">
-                            <li class="list-item" style="text-align: center;">✓ Merit-Based</li>
-                            <li class="list-item" style="text-align: center;">✓ Project Portfolio</li>
-                            <li class="list-item" style="text-align: center;">✓ Industry Recognition</li>
-                        </ul>
-                        <p style="font-size: 0.875rem; color: var(--text-gray); margin-top: 1rem;">Top 10% participants</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" style="background: var(--accent-blue); text-align: center;">
-                        <span style="font-size: 3rem;">🎖️</span>
-                        <h3 style="color: white; margin: 0.5rem 0 0 0;">Professional Badge</h3>
-                    </div>
-                    <div class="card-body">
-                        <p style="text-align: center; color: var(--text-gray); margin-bottom: 1rem;">Digital badge for career profiles</p>
-                        <ul class="list-unstyled" style="text-align: center;">
-                            <li class="list-item" style="text-align: center;">✓ Shareable Online</li>
-                            <li class="list-item" style="text-align: center;">✓ Skill Verification</li>
-                            <li class="list-item" style="text-align: center;">✓ Portfolio Ready</li>
-                        </ul>
-                        <p style="font-size: 0.875rem; color: var(--text-gray); margin-top: 1rem;">For premium paid programs</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Registration Form Section -->
-    <section class="section section-light" id="register">
-        <div class="container" style="max-width: 600px;">
-            <h2 class="section-title">Workshop Registration</h2>
-            <p class="section-subtitle">Secure your seat today</p>
-            <form style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow-md); margin-top: 2rem;">
-                <div class="form-group">
-                    <label for="workshop-name" class="form-label">Full Name</label>
-                    <input type="text" id="workshop-name" class="form-input" placeholder="Enter your name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="workshop-email" class="form-label">Email Address</label>
-                    <input type="email" id="workshop-email" class="form-input" placeholder="your@email.com" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="workshop-phone" class="form-label">Phone Number</label>
-                    <input type="tel" id="workshop-phone" class="form-input" placeholder="+91 XXXXX XXXXX" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="workshop-select" class="form-label">Select Workshop</label>
-                    <select id="workshop-select" class="form-select" required>
-                        <option value="">-- Choose a workshop --</option>
-                        <option value="pcb-design">Advanced PCB Design (₹15,000)</option>
-                        <option value="electronics-basic">Electronics Basics (FREE)</option>
-                        <option value="embedded">Embedded Systems (₹12,000)</option>
-                        <option value="soldering">Soldering & Testing (FREE)</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="workshop-experience" class="form-label">Experience Level</label>
-                    <select id="workshop-experience" class="form-select" required>
-                        <option value="">-- Select level --</option>
-                        <option value="beginner">Beginner</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="advanced">Advanced</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="workshop-message" class="form-label">Additional Questions or Comments</label>
-                    <textarea id="workshop-message" class="form-textarea" placeholder="Tell us anything else we should know..."></textarea>
-                </div>
-
-                <div class="form-group" style="margin-bottom: 0;">
-                    <label style="display: flex; align-items: center; font-weight: 400;">
-                        <input type="checkbox" class="form-checkbox" required>
-                        I agree to the terms and conditions
-                    </label>
-                </div>
-
-                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1.5rem;">Register Now</button>
-            </form>
-        </div>
+    <!-- CTA Section -->
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Register for Our Next Workshop</h2>
+        <p style="margin-bottom: 2rem;">Limited seats available. Secure your spot today</p>
+        <a href="contact.html" class="btn btn-primary">Register Now</a>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="grid grid-4" style="margin-bottom: 2rem;">
-                <div>
-                    <h3 class="footer-title">Resyvex Institute</h3>
-                    <p style="color: var(--text-light-gray);">Master Practical Electronics & PCB Design</p>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Resyvex Institute is a premier educational institution dedicated to providing world-class education and professional training.</p>
                 </div>
-                <div>
-                    <h4 class="footer-title">Quick Links</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html" class="footer-link">Home</a></li>
-                        <li><a href="courses.html" class="footer-link">Courses</a></li>
-                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="workshop.html">Workshop</a></li>
+                        <li><a href="guidance.html">Free Guidance</a></li>
+                        <li><a href="placements.html">Placements</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="footer-title">Resources</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="guidance.html" class="footer-link">Free Guidance</a></li>
-                        <li><a href="support.html" class="footer-link">Support</a></li>
-                        <li><a href="workshop.html" class="footer-link">Workshops</a></li>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="footer-title">Legal</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="terms.html" class="footer-link">Terms & Conditions</a></li>
-                        <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
-                    </ul>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Education Street, City, State 12345</p>
+                    <p>📞 +1 (800) 123-4567</p>
+                    <p>📧 info@resyvexinstitute.com</p>
                 </div>
             </div>
-            <hr style="border: none; border-top: 1px solid rgba(255, 255, 255, 0.1); margin: 2rem 0;">
-            <div style="text-align: center; color: var(--text-light-gray);">
-                <p>&copy; 2026 Resyvex Institute. All rights reserved.</p>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Resyvex Institute. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

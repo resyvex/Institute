@@ -3,919 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resyvex Institute - Practical Electronics & PCB Design Training</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Resyvex Institute - Professional Education & Training</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <div class="flex flex-center">
-                <span class="navbar-brand">Resyvex</span>
-                <span class="navbar-brand-text">Institute</span>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Resyvex<span>Institute</span></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <ul class="navbar-menu" id="navbarMenu">
-                <li><a href="index.html" class="navbar-link active">Home</a></li>
-                <li><a href="courses.html" class="navbar-link">Courses</a></li>
-                <li><a href="workshop.html" class="navbar-link">Workshop</a></li>
-                <li><a href="guidance.html" class="navbar-link">Free Guidance</a></li>
-                <li><a href="placements.html" class="navbar-link">Placements</a></li>
-                <li><a href="support.html" class="navbar-link">Support</a></li>
-                <li><a href="contact.html" class="navbar-link">Contact</a></li>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="workshop.html">Workshop</a></li>
+                <li><a href="guidance.html">Free Guidance</a></li>
+                <li><a href="placements.html">Placements</a></li>
+                <li><a href="student-support.html">Student Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1>Master Practical <span class="hero-accent">Electronics & PCB Design</span></h1>
-                <p class="hero-subtitle">Learn through hands-on, practical teaching in electronics, semiconductors, embedded systems, and core ECE subjects.</p>
-                <p class="hero-description">From circuits to careers - we train, guide, and place you.</p>
-                <div class="hero-buttons">
-                    <a href="courses.html" class="btn btn-primary">Explore Courses</a>
-                    <a href="#enquiry-form" class="btn btn-outline">Enquire Now</a>
-                </div>
-            </div>
-            <div class="hero-image">⚡</div>
+        <h1>Welcome to Resyvex Institute</h1>
+        <p>Transform Your Future with Professional Education & Industry-Ready Training</p>
+        <div class="hero-buttons">
+            <a href="courses.html" class="btn btn-primary">Explore Courses</a>
+            <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
         </div>
     </section>
 
-    <!-- Course Categories -->
-    <section class="section section-light">
-        <div class="section-container">
-            <h2 class="section-title">Course Categories</h2>
-            <p class="section-subtitle">Master practical electronics through structured learning</p>
-            <div class="grid grid-4">
-                <div class="card card-accent-top">
-                    <div class="card-body text-center">
-                        <div class="card-header-icon">🔌</div>
-                        <h3>Electronics</h3>
-                        <p class="mt-1">Circuit fundamentals, analog & digital electronics</p>
-                    </div>
-                </div>
-                <div class="card card-accent-top">
-                    <div class="card-body text-center">
-                        <div class="card-header-icon">🖥️</div>
-                        <h3>PCB Design</h3>
-                        <p class="mt-1">Layout, routing, manufacturing & testing</p>
-                    </div>
-                </div>
-                <div class="card card-accent-top">
-                    <div class="card-body text-center">
-                        <div class="card-header-icon">🧬</div>
-                        <h3>Semiconductors</h3>
-                        <p class="mt-1">Semiconductor basics and applications</p>
-                    </div>
-                </div>
-                <div class="card card-accent-top">
-                    <div class="card-body text-center">
-                        <div class="card-header-icon">🤖</div>
-                        <h3>Embedded Systems</h3>
-                        <p class="mt-1">Microcontrollers, IoT & real-time systems</p>
-                    </div>
-                </div>
+    <!-- About Section -->
+    <section class="container py-2">
+        <h2 class="section-title">About Resyvex Institute</h2>
+        <p class="section-subtitle">Leading the way in professional education and skill development</p>
+        
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Students Trained</div>
             </div>
-            <div class="grid grid-3 mt-4">
-                <div class="card card-accent-top">
-                    <div class="card-body text-center">
-                        <div class="card-header-icon">📚</div>
-                        <h3>Core ECE</h3>
-                        <p class="mt-1">Signals, systems, communication & control</p>
-                    </div>
-                </div>
-                <div class="card card-accent-top">
-                    <div class="card-body text-center">
-                        <div class="card-header-icon">🛠️</div>
-                        <h3>Workshops</h3>
-                        <p class="mt-1">Hands-on projects and practical training</p>
-                    </div>
-                </div>
-                <div class="card card-accent-top">
-                    <div class="card-body text-center">
-                        <div class="card-header-icon">🎯</div>
-                        <h3>Placement Ready</h3>
-                        <p class="mt-1">Interview prep & career guidance</p>
-                    </div>
-                </div>
+            <div class="stat-box">
+                <div class="stat-number">25+</div>
+                <div class="stat-label">Expert Instructors</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">40+</div>
+                <div class="stat-label">Professional Courses</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">95%</div>
+                <div class="stat-label">Placement Success</div>
             </div>
         </div>
+
+        <p style="text-align: center; margin-top: 2rem; line-height: 1.8; color: #555;">
+            Resyvex Institute is dedicated to providing high-quality education and professional training programs. 
+            With a focus on industry-relevant skills, we prepare students for successful careers in their chosen fields. 
+            Our experienced instructors and comprehensive curriculum ensure that every student receives the best education possible.
+        </p>
     </section>
 
-    <!-- Free Google Meet Guidance -->
-    <section class="section">
-        <div class="section-container">
-            <div class="grid grid-2 gap-8">
-                <div style="background-color: var(--primary-color); border-radius: 0.75rem; height: 320px; display: flex; align-items: center; justify-content: center; font-size: 3.75rem; box-shadow: var(--shadow-lg);">
-                    💬
+    <!-- Why Choose Us Section -->
+    <section class="features bg-light">
+        <div class="container">
+            <h2 class="section-title">Why Choose Resyvex Institute?</h2>
+            
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Industry-Expert Instructors</h4>
+                    <p>Learn from professionals with years of experience in their respective fields.</p>
                 </div>
-                <div>
-                    <h2>Free Google Meet Guidance</h2>
-                    <p>Get personalized career direction and academic guidance from our experienced mentors. No cost, no obligations.</p>
-                    <ul class="list-unstyled" style="margin: 2rem 0;">
-                        <li class="list-item"><span class="list-item-icon">✓</span>1-on-1 consultation with industry experts</li>
-                        <li class="list-item"><span class="list-item-icon">✓</span>Course selection and career path planning</li>
-                        <li class="list-item"><span class="list-item-icon">✓</span>Skills assessment and improvement tips</li>
-                        <li class="list-item"><span class="list-item-icon">✓</span>Flexible scheduling to fit your timeline</li>
-                    </ul>
-                    <a href="guidance.html" class="btn btn-primary">Book Your Free Session</a>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Comprehensive Curriculum</h4>
+                    <p>Carefully designed courses that cover both theory and practical applications.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Hands-On Training</h4>
+                    <p>Real-world projects and practical assignments to build practical skills.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>100% Job Assistance</h4>
+                    <p>Dedicated placement cell to help you secure your dream job.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Certification Programs</h4>
+                    <p>Industry-recognized certifications that boost your professional credentials.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                    <h4>Flexible Learning</h4>
+                    <p>Choose between full-time, part-time, and online courses that fit your schedule.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Workshop Schedule -->
-    <section class="section section-light">
-        <div class="section-container">
-            <h2 class="section-title">Upcoming Workshops</h2>
-            <div class="grid grid-3">
-                <div class="card">
-                    <div style="background: linear-gradient(135deg, var(--secondary-color), var(--secondary-light)); color: white; padding: 1.5rem;">
-                        <div class="flex-between mb-2">
-                            <h3>PCB Design Basics</h3>
-                            <span class="badge badge-primary">FREE</span>
-                        </div>
-                        <p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">May 15, 2026</p>
-                    </div>
-                    <div class="card-body">
-                        <p>Learn circuit layout and PCB design fundamentals in this hands-on session.</p>
-                        <a href="workshop.html" class="text-primary">Learn More →</a>
-                    </div>
-                </div>
+    <!-- Our Services Section -->
+    <section class="container py-2">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Comprehensive educational solutions for your growth</p>
+        
+        <div class="card-grid">
+            <div class="card">
+                <h3>Professional Courses</h3>
+                <p>In-depth courses designed to enhance your skills and advance your career in various technical and non-technical domains.</p>
+            </div>
 
-                <div class="card">
-                    <div style="background: linear-gradient(135deg, var(--secondary-color), var(--secondary-light)); color: white; padding: 1.5rem;">
-                        <div class="flex-between mb-2">
-                            <h3>Embedded Systems</h3>
-                            <span class="badge" style="background-color: var(--accent-blue); color: white;">PAID</span>
-                        </div>
-                        <p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">May 20, 2026</p>
-                    </div>
-                    <div class="card-body">
-                        <p>Master microcontroller programming with real-world projects.</p>
-                        <a href="workshop.html" class="text-primary">Learn More →</a>
-                    </div>
-                </div>
+            <div class="card">
+                <h3>Workshop & Seminars</h3>
+                <p>Interactive workshops and seminars conducted by industry experts to keep you updated with latest trends and technologies.</p>
+            </div>
 
-                <div class="card">
-                    <div style="background: linear-gradient(135deg, var(--secondary-color), var(--secondary-light)); color: white; padding: 1.5rem;">
-                        <div class="flex-between mb-2">
-                            <h3>Soldering & Assembly</h3>
-                            <span class="badge badge-primary">FREE</span>
-                        </div>
-                        <p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">May 25, 2026</p>
-                    </div>
-                    <div class="card-body">
-                        <p>Practical soldering techniques and component assembly.</p>
-                        <a href="workshop.html" class="text-primary">Learn More →</a>
-                    </div>
-                </div>
+            <div class="card">
+                <h3>Free Guidance Sessions</h3>
+                <p>Personalized guidance sessions to help you choose the right career path and skill development strategy.</p>
+            </div>
+
+            <div class="card">
+                <h3>Placement Support</h3>
+                <p>Comprehensive placement assistance with resume building, interview preparation, and job placements.</p>
+            </div>
+
+            <div class="card">
+                <h3>Student Support</h3>
+                <p>Dedicated support team to assist with academic and personal development throughout your learning journey.</p>
+            </div>
+
+            <div class="card">
+                <h3>Online & Offline</h3>
+                <p>Flexible learning modes with state-of-the-art facilities and online platforms for accessibility.</p>
             </div>
         </div>
     </section>
 
-    <!-- Placement Pathway -->
-    <section class="section">
-        <div class="section-container">
-            <h2 class="section-title">Your Path to Success</h2>
-            <div class="grid grid-4" style="gap: 1rem;">
-                <div style="background-color: var(--secondary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='var(--primary-color)'" onmouseout="this.style.backgroundColor='var(--secondary-color)'">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">📖</div>
-                    <h3 style="color: white;">Learn</h3>
-                    <p style="color: rgba(255,255,255,0.8);">Structured curriculum with real-world applications</p>
-                </div>
-                <div style="background-color: var(--secondary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='var(--primary-color)'" onmouseout="this.style.backgroundColor='var(--secondary-color)'">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">🔨</div>
-                    <h3 style="color: white;">Practice</h3>
-                    <p style="color: rgba(255,255,255,0.8);">Hands-on labs and practical projects</p>
-                </div>
-                <div style="background-color: var(--secondary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='var(--primary-color)'" onmouseout="this.style.backgroundColor='var(--secondary-color)'">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">🏗️</div>
-                    <h3 style="color: white;">Build</h3>
-                    <p style="color: rgba(255,255,255,0.8);">Create portfolio projects and solutions</p>
-                </div>
-                <div style="background-color: var(--primary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center; transition: all 0.3s; cursor: pointer;" onmouseover="this.style.backgroundColor='var(--primary-dark)'" onmouseout="this.style.backgroundColor='var(--primary-color)'">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎉</div>
-                    <h3 style="color: white;">Get Placed</h3>
-                    <p style="color: rgba(255,255,255,0.8);">Secure your career opportunity</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Student Support -->
-    <section class="section section-gradient">
-        <div class="section-container">
-            <div class="grid grid-2 gap-8">
-                <div class="flex gap-6">
-                    <div style="font-size: 3.75rem;">🔔</div>
-                    <div>
-                        <h3 style="color: white; margin-bottom: 0.5rem;">24/7 Student Support</h3>
-                        <p style="color: rgba(255,255,255,0.8);">Round-the-clock assistance for all your academic and technical queries</p>
-                    </div>
-                </div>
-                <div class="flex gap-6">
-                    <div style="font-size: 3.75rem;">🚀</div>
-                    <div>
-                        <h3 style="color: white; margin-bottom: 0.5rem;">Career Guidance</h3>
-                        <p style="color: rgba(255,255,255,0.8);">Dedicated mentors to guide your professional journey and growth</p>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 2rem;">
-                <a href="support.html" class="btn btn-primary">Get Support Now</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Faculty Section -->
-    <section class="section section-light">
-        <div class="section-container">
-            <h2 class="section-title">Learn from Industry Experts</h2>
-            <div class="grid grid-4">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <div style="width: 96px; height: 96px; background-color: var(--primary-color); border-radius: 9999px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2.25rem;">👨‍💼</div>
-                        <h3>Mr. Raj Kumar</h3>
-                        <p style="font-weight: 600; color: var(--text-gray); margin-bottom: 0.5rem;">PCB Design Expert</p>
-                        <p style="font-size: 0.9rem;">15+ years in electronics manufacturing</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body text-center">
-                        <div style="width: 96px; height: 96px; background-color: var(--primary-color); border-radius: 9999px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2.25rem;">👩‍💻</div>
-                        <h3>Dr. Priya Sharma</h3>
-                        <p style="font-weight: 600; color: var(--text-gray); margin-bottom: 0.5rem;">Embedded Systems Lead</p>
-                        <p style="font-size: 0.9rem;">PhD in embedded computing</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body text-center">
-                        <div style="width: 96px; height: 96px; background-color: var(--primary-color); border-radius: 9999px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2.25rem;">👨‍🏫</div>
-                        <h3>Prof. Amit Singh</h3>
-                        <p style="font-weight: 600; color: var(--text-gray); margin-bottom: 0.5rem;">Electronics Specialist</p>
-                        <p style="font-size: 0.9rem;">10+ years academic excellence</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body text-center">
-                        <div style="width: 96px; height: 96px; background-color: var(--primary-color); border-radius: 9999px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2.25rem;">👩‍🔬</div>
-                        <h3>Ms. Neha Verma</h3>
-                        <p style="font-weight: 600; color: var(--text-gray); margin-bottom: 0.5rem;">Semiconductor Trainer</p>
-                        <p style="font-size: 0.9rem;">Industry placement coordinator</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="section">
-        <div class="section-container">
-            <h2 class="section-title">Success Stories</h2>
-            <div class="grid grid-3 mb-3">
-                <div style="background-color: var(--bg-light-gray); padding: 2rem; border-radius: 0.75rem; border-left: 4px solid var(--primary-color);">
-                    <div class="flex gap-2 mb-2">
-                        <div style="width: 64px; height: 64px; background-color: var(--primary-color); border-radius: 9999px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.25rem;">AP</div>
-                        <div>
-                            <h4 style="margin: 0;">Arjun Patel</h4>
-                            <p style="font-size: 0.9rem; color: var(--text-gray); margin: 0;">PCB Design Specialist</p>
-                        </div>
-                    </div>
-                    <p style="font-style: italic; margin: 1rem 0;">"The practical approach to teaching helped me land a job within 2 months of completing the course!"</p>
-                    <p style="color: var(--primary-color); font-weight: 600;">→ Placed at TechCorp Electronics</p>
-                </div>
-
-                <div style="background-color: var(--bg-light-gray); padding: 2rem; border-radius: 0.75rem; border-left: 4px solid var(--primary-color);">
-                    <div class="flex gap-2 mb-2">
-                        <div style="width: 64px; height: 64px; background-color: var(--primary-color); border-radius: 9999px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.25rem;">SR</div>
-                        <div>
-                            <h4 style="margin: 0;">Sneha Rao</h4>
-                            <p style="font-size: 0.9rem; color: var(--text-gray); margin: 0;">Embedded Systems Developer</p>
-                        </div>
-                    </div>
-                    <p style="font-style: italic; margin: 1rem 0;">"Mentors here went above and beyond. The placement support was exceptional!"</p>
-                    <p style="color: var(--primary-color); font-weight: 600;">→ Placed at IoT Solutions Ltd</p>
-                </div>
-
-                <div style="background-color: var(--bg-light-gray); padding: 2rem; border-radius: 0.75rem; border-left: 4px solid var(--primary-color);">
-                    <div class="flex gap-2 mb-2">
-                        <div style="width: 64px; height: 64px; background-color: var(--primary-color); border-radius: 9999px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.25rem;">VK</div>
-                        <div>
-                            <h4 style="margin: 0;">Vikram Kumar</h4>
-                            <p style="font-size: 0.9rem; color: var(--text-gray); margin: 0;">Electronics Engineer</p>
-                        </div>
-                    </div>
-                    <p style="font-style: italic; margin: 1rem 0;">"Simple, practical teaching made complex concepts easy to understand!"</p>
-                    <p style="color: var(--primary-color); font-weight: 600;">→ Placed at Semiconductor India</p>
-                </div>
-            </div>
-
-            <div class="grid grid-4">
-                <div style="background-color: var(--secondary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center;">
-                    <div style="font-size: 3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">95%</div>
-                    <p>Placement Success Rate</p>
-                </div>
-                <div style="background-color: var(--secondary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center;">
-                    <div style="font-size: 3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">500+</div>
-                    <p>Successful Students</p>
-                </div>
-                <div style="background-color: var(--secondary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center;">
-                    <div style="font-size: 3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">50+</div>
-                    <p>Industry Partners</p>
-                </div>
-                <div style="background-color: var(--secondary-color); color: white; padding: 2rem; border-radius: 0.75rem; text-align: center;">
-                    <div style="font-size: 3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 0.5rem;">10+</div>
-                    <p>Years Experience</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Enquiry Form -->
-    <section class="section section-light" id="enquiry-form">
-        <div class="section-container" style="max-width: 896px;">
-            <h2 class="section-title">Get Started Today</h2>
-            <p class="section-subtitle">Fill out the form below and our team will contact you with course recommendations</p>
-
-            <div style="background-color: white; padding: 3rem; border-radius: 0.75rem; box-shadow: var(--shadow-lg);">
-                <form class="form">
-                    <div class="grid grid-2 gap-6">
-                        <div class="form-group">
-                            <label class="form-label">Full Name *</label>
-                            <input type="text" class="form-input" placeholder="Your name" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">Email *</label>
-                            <input type="email" class="form-input" placeholder="your@email.com" required>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-2 gap-6">
-                        <div class="form-group">
-                            <label class="form-label">Phone Number *</label>
-                            <input type="tel" class="form-input" placeholder="+91 98765 43210" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">Educational Background *</label>
-                            <select class="form-select" required>
-                                <option>Select...</option>
-                                <option>12th Pass</option>
-                                <option>Diploma</option>
-                                <option>B.Tech / B.E.</option>
-                                <option>Other</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label">Interested Course *</label>
-                        <select class="form-select" required>
-                            <option>Select a course...</option>
-                            <option>Electronics Fundamentals</option>
-                            <option>PCB Design Master</option>
-                            <option>Embedded Systems</option>
-                            <option>Core ECE Subjects</option>
-                            <option>Complete Bundle</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label">Message</label>
-                        <textarea class="form-textarea" placeholder="Tell us about your goals..."></textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <label style="display: flex; align-items: center; cursor: pointer;">
-                            <input type="checkbox" class="form-checkbox" required>
-                            <span>I agree to the <a href="terms.html">Terms & Conditions</a></span>
-                        </label>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary btn-full-width">Submit Enquiry</button>
-                </form>
-            </div>
-        </div>
+    <!-- Call to Action Section -->
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Transform Your Career?</h2>
+        <p style="margin-bottom: 2rem;">Join thousands of successful professionals who started their journey at Resyvex Institute</p>
+        <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="footer-container">
             <div class="footer-grid">
-                <div>
-                    <h3 class="footer-title">Resyvex Institute</h3>
-                    <p>Practical training in electronics, PCB design, and semiconductor technology.</p>
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Resyvex Institute is a premier educational institution dedicated to providing world-class education and professional training.</p>
                 </div>
-                <div>
-                    <h4 class="footer-title">Courses</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="courses.html" class="footer-link">Electronics</a></li>
-                        <li><a href="courses.html" class="footer-link">PCB Design</a></li>
-                        <li><a href="courses.html" class="footer-link">Embedded Systems</a></li>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="workshop.html">Workshop</a></li>
+                        <li><a href="guidance.html">Free Guidance</a></li>
+                        <li><a href="placements.html">Placements</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="footer-title">Resources</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="guidance.html" class="footer-link">Free Guidance</a></li>
-                        <li><a href="workshop.html" class="footer-link">Workshops</a></li>
-                        <li><a href="support.html" class="footer-link">Support</a></li>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="footer-title">Legal & Contact</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="contact.html" class="footer-link">Contact Us</a></li>
-                        <li><a href="terms.html" class="footer-link">Terms</a></li>
-                        <li><a href="privacy.html" class="footer-link">Privacy</a></li>
-                    </ul>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Education Street, City, State 12345</p>
+                    <p>📞 +1 (800) 123-4567</p>
+                    <p>📧 info@resyvexinstitute.com</p>
                 </div>
             </div>
-            <hr class="footer-divider">
+
             <div class="footer-bottom">
-                <p>&copy; 2026 Resyvex Institute. All rights reserved. | Excellence in Electronics Education</p>
+                <p>&copy; 2024 Resyvex Institute. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
             </div>
         </div>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            const menu = document.getElementById('navbarMenu');
-            menu.classList.toggle('active');
-        }
-    </script>
-</body>
-</html>
-    <!-- Navigation -->
-    <nav class="bg-black text-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <span class="text-2xl font-bold text-red-600">Resyvex</span>
-                    <span class="text-lg font-semibold ml-2">Institute</span>
-                </div>
-                <div class="hidden md:flex space-x-6">
-                    <a href="index.html" class="hover:text-red-500 transition">Home</a>
-                    <a href="courses.html" class="hover:text-red-500 transition">Courses</a>
-                    <a href="workshop.html" class="hover:text-red-500 transition">Workshop</a>
-                    <a href="guidance.html" class="hover:text-red-500 transition">Free Guidance</a>
-                    <a href="placements.html" class="hover:text-red-500 transition">Placements</a>
-                    <a href="support.html" class="hover:text-red-500 transition">Support</a>
-                    <a href="contact.html" class="hover:text-red-500 transition">Contact</a>
-                </div>
-                <div class="md:hidden">
-                    <button class="text-white" onclick="toggleMenu()">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-            <!-- Mobile Menu -->
-            <div id="mobileMenu" class="hidden md:hidden pb-4">
-                <a href="index.html" class="block py-2 hover:text-red-500">Home</a>
-                <a href="courses.html" class="block py-2 hover:text-red-500">Courses</a>
-                <a href="workshop.html" class="block py-2 hover:text-red-500">Workshop</a>
-                <a href="guidance.html" class="block py-2 hover:text-red-500">Free Guidance</a>
-                <a href="placements.html" class="block py-2 hover:text-red-500">Placements</a>
-                <a href="support.html" class="block py-2 hover:text-red-500">Support</a>
-                <a href="contact.html" class="block py-2 hover:text-red-500">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section - Practical Electronics Learning Focus -->
-    <section class="bg-gradient-to-r from-black to-gray-900 text-white py-20 md:py-28">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <h1 class="text-5xl md:text-6xl font-bold mb-6">Master Practical <span class="text-red-600">Electronics & PCB Design</span></h1>
-                    <p class="text-xl text-gray-300 mb-4">Learn through hands-on, practical teaching in electronics, semiconductors, embedded systems, and core ECE subjects.</p>
-                    <p class="text-lg text-gray-400 mb-8">From circuits to careers - we train, guide, and place you.</p>
-                    <div class="flex gap-4">
-                        <a href="courses.html" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition">Explore Courses</a>
-                        <a href="#enquiry-form" class="border-2 border-red-600 hover:bg-red-600 text-white px-8 py-3 rounded-lg font-semibold transition">Enquire Now</a>
-                    </div>
-                </div>
-                <div class="bg-red-600 rounded-lg h-64 md:h-96 flex items-center justify-center text-6xl shadow-xl">
-                    ⚡
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Course Categories with Icons -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Course Categories</h2>
-            <p class="text-center text-gray-600 mb-12 text-lg">Master practical electronics through structured learning</p>
-            <div class="grid md:grid-cols-4 gap-6">
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition border-t-4 border-red-600">
-                    <div class="text-5xl mb-4">🔌</div>
-                    <h3 class="text-xl font-bold mb-3">Electronics</h3>
-                    <p class="text-gray-600 text-sm">Circuit fundamentals, analog & digital electronics</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition border-t-4 border-red-600">
-                    <div class="text-5xl mb-4">🖥️</div>
-                    <h3 class="text-xl font-bold mb-3">PCB Design</h3>
-                    <p class="text-gray-600 text-sm">Layout, routing, manufacturing & testing</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition border-t-4 border-red-600">
-                    <div class="text-5xl mb-4">🧬</div>
-                    <h3 class="text-xl font-bold mb-3">Semiconductors</h3>
-                    <p class="text-gray-600 text-sm">Semiconductor basics and applications</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition border-t-4 border-red-600">
-                    <div class="text-5xl mb-4">🤖</div>
-                    <h3 class="text-xl font-bold mb-3">Embedded Systems</h3>
-                    <p class="text-gray-600 text-sm">Microcontrollers, IoT & real-time systems</p>
-                </div>
-            </div>
-            <div class="grid md:grid-cols-3 gap-6 mt-6">
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition border-t-4 border-red-600">
-                    <div class="text-5xl mb-4">📚</div>
-                    <h3 class="text-xl font-bold mb-3">Core ECE</h3>
-                    <p class="text-gray-600 text-sm">Signals, systems, communication & control</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition border-t-4 border-red-600">
-                    <div class="text-5xl mb-4">🛠️</div>
-                    <h3 class="text-xl font-bold mb-3">Workshops</h3>
-                    <p class="text-gray-600 text-sm">Hands-on projects and practical training</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition border-t-4 border-red-600">
-                    <div class="text-5xl mb-4">🎯</div>
-                    <h3 class="text-xl font-bold mb-3">Placement Ready</h3>
-                    <p class="text-gray-600 text-sm">Interview prep & career guidance</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Free Google Meet Guidance Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div class="bg-red-600 rounded-lg h-80 flex items-center justify-center text-6xl shadow-lg">
-                    💬
-                </div>
-                <div>
-                    <h2 class="text-4xl font-bold mb-6">Free Google Meet Guidance</h2>
-                    <p class="text-gray-600 text-lg mb-6">Get personalized career direction and academic guidance from our experienced mentors. No cost, no obligations.</p>
-                    <ul class="space-y-4 mb-8">
-                        <li class="flex items-center">
-                            <span class="text-red-600 text-2xl mr-3">✓</span>
-                            <span class="text-gray-700">1-on-1 consultation with industry experts</span>
-                        </li>
-                        <li class="flex items-center">
-                            <span class="text-red-600 text-2xl mr-3">✓</span>
-                            <span class="text-gray-700">Course selection and career path planning</span>
-                        </li>
-                        <li class="flex items-center">
-                            <span class="text-red-600 text-2xl mr-3">✓</span>
-                            <span class="text-gray-700">Skills assessment and improvement tips</span>
-                        </li>
-                        <li class="flex items-center">
-                            <span class="text-red-600 text-2xl mr-3">✓</span>
-                            <span class="text-gray-700">Flexible scheduling to fit your timeline</span>
-                        </li>
-                    </ul>
-                    <a href="guidance.html" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition inline-block">Book Your Free Session</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Workshop Schedule with Free/Paid Tags -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-12">Upcoming Workshops</h2>
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-                    <div class="bg-black text-white p-6">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold">PCB Design Basics</h3>
-                            <span class="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">FREE</span>
-                        </div>
-                        <p class="text-gray-300">May 15, 2026</p>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4">Learn circuit layout and PCB design fundamentals in this hands-on session.</p>
-                        <a href="workshop.html" class="text-red-600 font-semibold hover:text-red-700">Learn More →</a>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-                    <div class="bg-black text-white p-6">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold">Embedded Systems</h3>
-                            <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold">PAID</span>
-                        </div>
-                        <p class="text-gray-300">May 20, 2026</p>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4">Master microcontroller programming with real-world projects.</p>
-                        <a href="workshop.html" class="text-red-600 font-semibold hover:text-red-700">Learn More →</a>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-                    <div class="bg-black text-white p-6">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold">Soldering & Assembly</h3>
-                            <span class="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">FREE</span>
-                        </div>
-                        <p class="text-gray-300">May 25, 2026</p>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 mb-4">Practical soldering techniques and component assembly.</p>
-                        <a href="workshop.html" class="text-red-600 font-semibold hover:text-red-700">Learn More →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Placement Pathway Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-12">Your Path to Success</h2>
-            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex-1 bg-black text-white p-8 rounded-lg text-center hover:bg-red-600 transition">
-                    <div class="text-5xl mb-4">📖</div>
-                    <h3 class="text-2xl font-bold mb-2">Learn</h3>
-                    <p class="text-gray-300">Structured curriculum with real-world applications</p>
-                </div>
-                
-                <div class="hidden md:flex text-red-600 text-4xl font-bold">→</div>
-                
-                <div class="flex-1 bg-black text-white p-8 rounded-lg text-center hover:bg-red-600 transition">
-                    <div class="text-5xl mb-4">🔨</div>
-                    <h3 class="text-2xl font-bold mb-2">Practice</h3>
-                    <p class="text-gray-300">Hands-on labs and practical projects</p>
-                </div>
-                
-                <div class="hidden md:flex text-red-600 text-4xl font-bold">→</div>
-                
-                <div class="flex-1 bg-black text-white p-8 rounded-lg text-center hover:bg-red-600 transition">
-                    <div class="text-5xl mb-4">🏗️</div>
-                    <h3 class="text-2xl font-bold mb-2">Build</h3>
-                    <p class="text-gray-300">Create portfolio projects and solutions</p>
-                </div>
-                
-                <div class="hidden md:flex text-red-600 text-4xl font-bold">→</div>
-                
-                <div class="flex-1 bg-black text-white p-8 rounded-lg text-center hover:bg-red-600 transition">
-                    <div class="text-5xl mb-4">💬</div>
-                    <h3 class="text-2xl font-bold mb-2">Interview</h3>
-                    <p class="text-gray-300">Placement-focused interview preparation</p>
-                </div>
-                
-                <div class="hidden md:flex text-red-600 text-4xl font-bold">→</div>
-                
-                <div class="flex-1 bg-red-600 text-white p-8 rounded-lg text-center hover:bg-red-700 transition">
-                    <div class="text-5xl mb-4">🎉</div>
-                    <h3 class="text-2xl font-bold mb-2">Get Placed</h3>
-                    <p class="text-gray-200">Secure your career opportunity</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Student Support Banner -->
-    <section class="bg-gradient-to-r from-black to-gray-900 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="flex items-center gap-6">
-                    <div class="text-6xl">🔔</div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-2">24/7 Student Support</h3>
-                        <p class="text-gray-300">Round-the-clock assistance for all your academic and technical queries</p>
-                    </div>
-                </div>
-                <div class="flex items-center gap-6">
-                    <div class="text-6xl">🚀</div>
-                    <div>
-                        <h3 class="text-2xl font-bold mb-2">Career Guidance</h3>
-                        <p class="text-gray-300">Dedicated mentors to guide your professional journey and growth</p>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-8 text-center">
-                <a href="support.html" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition inline-block">Get Support Now</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mentor / Faculty Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-12">Learn from Industry Experts</h2>
-            <div class="grid md:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-md text-center p-8 hover:shadow-lg transition">
-                    <div class="w-24 h-24 bg-red-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍💼</div>
-                    <h3 class="text-xl font-bold mb-2">Mr. Raj Kumar</h3>
-                    <p class="text-gray-600 mb-2 font-semibold">PCB Design Expert</p>
-                    <p class="text-gray-600 text-sm">15+ years in electronics manufacturing</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md text-center p-8 hover:shadow-lg transition">
-                    <div class="w-24 h-24 bg-red-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👩‍💻</div>
-                    <h3 class="text-xl font-bold mb-2">Dr. Priya Sharma</h3>
-                    <p class="text-gray-600 mb-2 font-semibold">Embedded Systems Lead</p>
-                    <p class="text-gray-600 text-sm">PhD in embedded computing</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md text-center p-8 hover:shadow-lg transition">
-                    <div class="w-24 h-24 bg-red-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍🏫</div>
-                    <h3 class="text-xl font-bold mb-2">Prof. Amit Singh</h3>
-                    <p class="text-gray-600 mb-2 font-semibold">Electronics Specialist</p>
-                    <p class="text-gray-600 text-sm">10+ years academic excellence</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md text-center p-8 hover:shadow-lg transition">
-                    <div class="w-24 h-24 bg-red-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👩‍🔬</div>
-                    <h3 class="text-xl font-bold mb-2">Ms. Neha Verma</h3>
-                    <p class="text-gray-600 mb-2 font-semibold">Semiconductor Trainer</p>
-                    <p class="text-gray-600 text-sm">Industry placement coordinator</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Student Testimonials & Outcomes -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-12">Success Stories</h2>
-            <div class="grid md:grid-cols-3 gap-6 mb-12">
-                <div class="bg-gray-50 p-8 rounded-lg border-l-4 border-red-600">
-                    <div class="flex items-center mb-4">
-                        <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl">AP</div>
-                        <div class="ml-4">
-                            <h4 class="font-bold">Arjun Patel</h4>
-                            <p class="text-sm text-gray-600">PCB Design Specialist</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 italic">"The practical approach to teaching helped me land a job within 2 months of completing the course!"</p>
-                    <p class="text-red-600 font-semibold mt-3">→ Placed at TechCorp Electronics</p>
-                </div>
-
-                <div class="bg-gray-50 p-8 rounded-lg border-l-4 border-red-600">
-                    <div class="flex items-center mb-4">
-                        <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl">SR</div>
-                        <div class="ml-4">
-                            <h4 class="font-bold">Sneha Rao</h4>
-                            <p class="text-sm text-gray-600">Embedded Systems Developer</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 italic">"Mentors here went above and beyond. The placement support was exceptional!"</p>
-                    <p class="text-red-600 font-semibold mt-3">→ Placed at IoT Solutions Ltd</p>
-                </div>
-
-                <div class="bg-gray-50 p-8 rounded-lg border-l-4 border-red-600">
-                    <div class="flex items-center mb-4">
-                        <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl">VK</div>
-                        <div class="ml-4">
-                            <h4 class="font-bold">Vikram Kumar</h4>
-                            <p class="text-sm text-gray-600">Electronics Engineer</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 italic">"Simple, practical teaching made complex concepts easy to understand!"</p>
-                    <p class="text-red-600 font-semibold mt-3">→ Placed at Semiconductor India</p>
-                </div>
-            </div>
-
-            <!-- Key Statistics -->
-            <div class="grid md:grid-cols-4 gap-6">
-                <div class="bg-black text-white p-8 rounded-lg text-center">
-                    <div class="text-5xl font-bold text-red-600 mb-2">95%</div>
-                    <p class="text-gray-300">Placement Success Rate</p>
-                </div>
-                <div class="bg-black text-white p-8 rounded-lg text-center">
-                    <div class="text-5xl font-bold text-red-600 mb-2">500+</div>
-                    <p class="text-gray-300">Successful Students</p>
-                </div>
-                <div class="bg-black text-white p-8 rounded-lg text-center">
-                    <div class="text-5xl font-bold text-red-600 mb-2">50+</div>
-                    <p class="text-gray-300">Industry Partners</p>
-                </div>
-                <div class="bg-black text-white p-8 rounded-lg text-center">
-                    <div class="text-5xl font-bold text-red-600 mb-2">10+</div>
-                    <p class="text-gray-300">Years Experience</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Admission Enquiry Form -->
-    <section class="py-20 bg-gray-50" id="enquiry-form">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Get Started Today</h2>
-            <p class="text-center text-gray-600 mb-12 text-lg">Fill out the form below and our team will contact you with course recommendations</p>
-            
-            <div class="bg-white p-8 md:p-12 rounded-lg shadow-lg">
-                <form class="space-y-6">
-                    <div class="grid md:grid-cols-2 gap-6">
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Full Name *</label>
-                            <input type="text" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-red-600" placeholder="Your name">
-                        </div>
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Email *</label>
-                            <input type="email" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-red-600" placeholder="your@email.com">
-                        </div>
-                    </div>
-
-                    <div class="grid md:grid-cols-2 gap-6">
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Phone Number *</label>
-                            <input type="tel" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-red-600" placeholder="+91 98765 43210">
-                        </div>
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2">Educational Background *</label>
-                            <select required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-red-600">
-                                <option>Select...</option>
-                                <option>12th Pass</option>
-                                <option>Diploma</option>
-                                <option>B.Tech / B.E.</option>
-                                <option>Other</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label class="block text-gray-700 font-semibold mb-2">Interested Course *</label>
-                        <select required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-red-600">
-                            <option>Select a course...</option>
-                            <option>Electronics Fundamentals</option>
-                            <option>PCB Design Master</option>
-                            <option>Embedded Systems</option>
-                            <option>Core ECE Subjects</option>
-                            <option>Complete Bundle</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="block text-gray-700 font-semibold mb-2">Message</label>
-                        <textarea class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-red-600" rows="4" placeholder="Tell us about your goals..."></textarea>
-                    </div>
-
-                    <div class="flex items-center">
-                        <input type="checkbox" required id="terms" class="w-4 h-4">
-                        <label for="terms" class="ml-3 text-gray-700">I agree to the <a href="terms.html" class="text-red-600 font-semibold hover:underline">Terms & Conditions</a></label>
-                    </div>
-
-                    <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg transition text-lg">
-                        Submit Enquiry
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-black text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <h3 class="text-xl font-bold text-red-600 mb-4">Resyvex Institute</h3>
-                    <p class="text-gray-400">Practical training in electronics, PCB design, and semiconductor technology.</p>
-                </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Courses</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="courses.html" class="hover:text-red-500">Electronics</a></li>
-                        <li><a href="courses.html" class="hover:text-red-500">PCB Design</a></li>
-                        <li><a href="courses.html" class="hover:text-red-500">Embedded Systems</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Resources</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="guidance.html" class="hover:text-red-500">Free Guidance</a></li>
-                        <li><a href="workshop.html" class="hover:text-red-500">Workshops</a></li>
-                        <li><a href="support.html" class="hover:text-red-500">Support</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Legal & Contact</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="contact.html" class="hover:text-red-500">Contact Us</a></li>
-                        <li><a href="terms.html" class="hover:text-red-500">Terms</a></li>
-                        <li><a href="privacy.html" class="hover:text-red-500">Privacy</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr class="border-gray-700 my-8">
-            <div class="text-center text-gray-400">
-                <p>&copy; 2026 Resyvex Institute. All rights reserved. | Excellence in Electronics Education</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        function toggleMenu() {
-            const menu = document.getElementById('mobileMenu');
-            menu.classList.toggle('hidden');
-        }
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>

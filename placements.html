@@ -4,209 +4,304 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placements - Resyvex Institute</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="bg-black text-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <span class="text-2xl font-bold text-red-600">Resyvex</span>
-                    <span class="text-lg font-semibold ml-2">Institute</span>
-                </div>
-                <div class="hidden md:flex space-x-6">
-                    <a href="index.html" class="hover:text-red-500 transition">Home</a>
-                    <a href="courses.html" class="hover:text-red-500 transition">Courses</a>
-                    <a href="workshop.html" class="hover:text-red-500 transition">Workshop</a>
-                    <a href="guidance.html" class="hover:text-red-500 transition">Free Guidance</a>
-                    <a href="placements.html" class="hover:text-red-500 transition text-red-500">Placements</a>
-                    <a href="support.html" class="hover:text-red-500 transition">Support</a>
-                    <a href="contact.html" class="hover:text-red-500 transition">Contact</a>
-                </div>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Resyvex<span>Institute</span></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="workshop.html">Workshop</a></li>
+                <li><a href="guidance.html">Free Guidance</a></li>
+                <li><a href="placements.html" class="active">Placements</a></li>
+                <li><a href="student-support.html">Student Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Our Placements Program</h1>
+        <p>100% Placement Assistance - Your Success is Our Mission</p>
+    </section>
+
+    <!-- Placement Overview -->
+    <section class="container py-2">
+        <h2 class="section-title">Placement Statistics</h2>
+        <p class="section-subtitle">Proven track record of successful student placements</p>
+
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-number">95%</div>
+                <div class="stat-label">Placement Success Rate</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Students Placed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">150+</div>
+                <div class="stat-label">Partner Companies</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">₹6 LPA</div>
+                <div class="stat-label">Average Package</div>
             </div>
         </div>
-    </nav>
 
-    <!-- Header -->
-    <section class="bg-gradient-to-r from-red-600 to-red-700 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-5xl font-bold mb-4">Placements</h1>
-            <p class="text-xl text-red-100">Your success is our success - 100% placement guarantee</p>
+        <div style="background-color: var(--gray-light); padding: 2rem; border-radius: var(--border-radius); margin-top: 2rem;">
+            <p style="line-height: 1.8; color: #555;">
+                Our comprehensive placement program ensures that every qualified student finds their ideal job. With dedicated placement officers, industry connections, and proven strategies, we have successfully placed hundreds of students in leading companies across various industries.
+            </p>
         </div>
     </section>
 
-    <!-- Statistics -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-20">
-                <div class="bg-white rounded-lg shadow-lg p-8 text-center border-t-4 border-red-600">
-                    <div class="text-5xl font-bold text-red-600 mb-2">100%</div>
-                    <p class="text-gray-600 font-semibold">Placement Rate</p>
+    <!-- Placement Services -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Our Placement Services</h2>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Resume Building</h3>
+                    <p>Expert guidance to create a compelling resume that highlights your skills and achievements to attract top employers.</p>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg p-8 text-center border-t-4 border-red-600">
-                    <div class="text-5xl font-bold text-red-600 mb-2">₹8LPA</div>
-                    <p class="text-gray-600 font-semibold">Average Salary</p>
+
+                <div class="card">
+                    <h3>Interview Preparation</h3>
+                    <p>Comprehensive training on technical interviews, HR rounds, and group discussions with mock interviews and feedback.</p>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg p-8 text-center border-t-4 border-red-600">
-                    <div class="text-5xl font-bold text-red-600 mb-2">500+</div>
-                    <p class="text-gray-600 font-semibold">Companies</p>
+
+                <div class="card">
+                    <h3>Skill Enhancement</h3>
+                    <p>Additional training programs to enhance skills that are in high demand among employers in the job market.</p>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg p-8 text-center border-t-4 border-red-600">
-                    <div class="text-5xl font-bold text-red-600 mb-2">2000+</div>
-                    <p class="text-gray-600 font-semibold">Graduates Placed</p>
+
+                <div class="card">
+                    <h3>Industry Connections</h3>
+                    <p>Direct connections with 150+ partner companies for exclusive job opportunities and recruitment drives.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Job Placement</h3>
+                    <p>Dedicated placement cell working actively to match students with suitable job opportunities in their field.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Career Counseling</h3>
+                    <p>Ongoing guidance on career development, job transitions, and long-term growth strategies post-placement.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Recruitment Partners -->
-    <section class="py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-12">Our Recruitment Partners</h2>
-            <div class="grid md:grid-cols-5 gap-6">
-                <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 hover:shadow-lg transition">
-                    <div class="text-4xl mb-2">🔷</div>
-                    <p class="font-semibold">Google</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 hover:shadow-lg transition">
-                    <div class="text-4xl mb-2">💙</div>
-                    <p class="font-semibold">Microsoft</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 hover:shadow-lg transition">
-                    <div class="text-4xl mb-2">🔴</div>
-                    <p class="font-semibold">Amazon</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 hover:shadow-lg transition">
-                    <div class="text-4xl mb-2">💻</div>
-                    <p class="font-semibold">Facebook</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 hover:shadow-lg transition">
-                    <div class="text-4xl mb-2">🚀</div>
-                    <p class="font-semibold">Startup Ecosystem</p>
-                </div>
+    <!-- Top Recruiting Companies -->
+    <section class="container py-2">
+        <h2 class="section-title">Our Partner Companies</h2>
+        <p class="section-subtitle">We have placed students in some of the top companies across industries</p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+            <div style="padding: 2rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <div style="font-size: 2rem; color: var(--primary-red); margin-bottom: 0.5rem;">🏢</div>
+                <p style="font-weight: 600; color: var(--dark-black);">Google</p>
+                <p style="color: #666; font-size: 0.9rem;">10+ Placements</p>
+            </div>
+
+            <div style="padding: 2rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <div style="font-size: 2rem; color: var(--primary-red); margin-bottom: 0.5rem;">🏢</div>
+                <p style="font-weight: 600; color: var(--dark-black);">Microsoft</p>
+                <p style="color: #666; font-size: 0.9rem;">8+ Placements</p>
+            </div>
+
+            <div style="padding: 2rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <div style="font-size: 2rem; color: var(--primary-red); margin-bottom: 0.5rem;">🏢</div>
+                <p style="font-weight: 600; color: var(--dark-black);">Amazon</p>
+                <p style="color: #666; font-size: 0.9rem;">15+ Placements</p>
+            </div>
+
+            <div style="padding: 2rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <div style="font-size: 2rem; color: var(--primary-red); margin-bottom: 0.5rem;">🏢</div>
+                <p style="font-weight: 600; color: var(--dark-black);">TCS</p>
+                <p style="color: #666; font-size: 0.9rem;">25+ Placements</p>
+            </div>
+
+            <div style="padding: 2rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <div style="font-size: 2rem; color: var(--primary-red); margin-bottom: 0.5rem;">🏢</div>
+                <p style="font-weight: 600; color: var(--dark-black);">Infosys</p>
+                <p style="color: #666; font-size: 0.9rem;">20+ Placements</p>
+            </div>
+
+            <div style="padding: 2rem; background-color: var(--gray-light); border-radius: var(--border-radius);">
+                <div style="font-size: 2rem; color: var(--primary-red); margin-bottom: 0.5rem;">🏢</div>
+                <p style="font-weight: 600; color: var(--dark-black);">Accenture</p>
+                <p style="color: #666; font-size: 0.9rem;">18+ Placements</p>
             </div>
         </div>
     </section>
 
     <!-- Placement Process -->
-    <section class="bg-gray-50 py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-12 text-center">Our Placement Process</h2>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
-                    <h3 class="font-bold mb-2">Resume Building</h3>
-                    <p class="text-gray-600">Create professional resumes and portfolios</p>
+    <section class="features bg-light">
+        <div class="container">
+            <h2 class="section-title">Our Placement Process</h2>
+
+            <div class="feature-item">
+                <div class="feature-icon">1</div>
+                <div class="feature-content">
+                    <h4>Resume Review & Building</h4>
+                    <p>We review and enhance your resume to make it stand out to recruiters and highlight your key strengths.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
-                    <h3 class="font-bold mb-2">Interview Prep</h3>
-                    <p class="text-gray-600">Mock interviews and technical training</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">2</div>
+                <div class="feature-content">
+                    <h4>Skills Assessment</h4>
+                    <p>Evaluate your technical and soft skills to identify areas for improvement and additional training needed.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
-                    <h3 class="font-bold mb-2">Company Drives</h3>
-                    <p class="text-gray-600">Direct recruitment from top companies</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">3</div>
+                <div class="feature-content">
+                    <h4>Mock Interviews</h4>
+                    <p>Practice interviews with our experts to build confidence and prepare for real interview situations.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
-                    <h3 class="font-bold mb-2">Job Offer</h3>
-                    <p class="text-gray-600">Secure your dream role with best packages</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">4</div>
+                <div class="feature-content">
+                    <h4>Company Connect</h4>
+                    <p>Get connected with our partner companies through job fairs, recruitment drives, and direct referrals.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">5</div>
+                <div class="feature-content">
+                    <h4>Interview Coaching</h4>
+                    <p>Personalized coaching for different interview rounds including technical, HR, and management interviews.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">6</div>
+                <div class="feature-content">
+                    <h4>Offer Negotiation</h4>
+                    <p>Guidance on evaluating offers and negotiating salary and benefits for the best career opportunity.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Success Stories -->
-    <section class="py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-12">Success Stories</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">RS</div>
-                        <div class="ml-4">
-                            <h3 class="font-bold">Raj Singh</h3>
-                            <p class="text-gray-600 text-sm">Google, Software Engineer</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-600">"The courses at Resyvex were industry-focused and really prepared me for the interview process. I was placed at Google with a package of ₹15 LPA."</p>
-                    <div class="mt-4 text-yellow-500">★★★★★</div>
-                </div>
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">PR</div>
-                        <div class="ml-4">
-                            <h3 class="font-bold">Priya Sharma</h3>
-                            <p class="text-gray-600 text-sm">Amazon, Product Manager</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-600">"The mentorship program was invaluable. My mentor helped me understand the industry and prepared me for interviews. Best decision ever!"</p>
-                    <div class="mt-4 text-yellow-500">★★★★★</div>
-                </div>
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">AK</div>
-                        <div class="ml-4">
-                            <h3 class="font-bold">Amit Kumar</h3>
-                            <p class="text-gray-600 text-sm">Microsoft, Cloud Architect</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-600">"The Cloud & DevOps course was comprehensive and hands-on. I got placed within 2 months with ₹12 LPA package."</p>
-                    <div class="mt-4 text-yellow-500">★★★★★</div>
-                </div>
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">NK</div>
-                        <div class="ml-4">
-                            <h3 class="font-bold">Neha Kapoor</h3>
-                            <p class="text-gray-600 text-sm">Facebook, Data Scientist</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-600">"Resyvex made my career transition smooth. The Data Science course equipped me with all necessary skills. Grateful for the support!"</p>
-                    <div class="mt-4 text-yellow-500">★★★★★</div>
-                </div>
+    <section class="container py-2">
+        <h2 class="section-title">Student Success Stories</h2>
+        <p class="section-subtitle">Hear from our successfully placed students</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem; font-weight: 600;">⭐⭐⭐⭐⭐</div>
+                <p><strong>From Struggling to Secured!</strong><br><br>
+                "I wasn't confident about placements, but the institute's placement team helped me at every step. Now I'm working at Google!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Ashok Kumar</strong><br>Software Engineer at Google | Package: ₹12 LPA</p>
+            </div>
+
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem; font-weight: 600;">⭐⭐⭐⭐⭐</div>
+                <p><strong>Career Transformation!</strong><br><br>
+                "The resume building and interview coaching sessions were fantastic. I got placed within 2 weeks after the course completion!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Priya Sharma</strong><br>Data Scientist at Microsoft | Package: ₹10 LPA</p>
+            </div>
+
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem; font-weight: 600;">⭐⭐⭐⭐⭐</div>
+                <p><strong>Dream Job Achieved!</strong><br><br>
+                "The placement assistance was incredible. They provided multiple opportunities and helped me choose the best fit for my career."</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Rajesh Singh</strong><br>Senior Developer at Amazon | Package: ₹14 LPA</p>
+            </div>
+
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem; font-weight: 600;">⭐⭐⭐⭐⭐</div>
+                <p><strong>Career Acceleration!</strong><br><br>
+                "The mock interviews and personalized coaching gave me the confidence to face real interviews. Placed at TCS with great package!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Neha Verma</strong><br>Project Analyst at TCS | Package: ₹5.5 LPA</p>
+            </div>
+
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem; font-weight: 600;">⭐⭐⭐⭐⭐</div>
+                <p><strong>Exceeded Expectations!</strong><br><br>
+                "I got multiple job offers thanks to the excellent placement support. Now enjoying a great career in a dream company!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Vikram Patel</strong><br>Business Analyst at Accenture | Package: ₹7 LPA</p>
+            </div>
+
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem; font-weight: 600;">⭐⭐⭐⭐⭐</div>
+                <p><strong>Best Decision Ever!</strong><br><br>
+                "The placement team's dedication and support were exceptional. Got placed in my first company interview itself!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Anjali Gupta</strong><br>Digital Marketing Manager | Package: ₹6 LPA</p>
             </div>
         </div>
     </section>
 
+    <!-- CTA Section -->
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Secure Your Dream Job?</h2>
+        <p style="margin-bottom: 2rem;">Enroll now and let us help you achieve your career goals</p>
+        <a href="contact.html" class="btn btn-primary">Get Placed With Us</a>
+    </section>
+
     <!-- Footer -->
-    <footer class="bg-black text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <h3 class="text-xl font-bold text-red-600 mb-4">Resyvex Institute</h3>
-                    <p class="text-gray-400">Empowering minds, building futures.</p>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Resyvex Institute is a premier educational institution dedicated to providing world-class education and professional training.</p>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="index.html" class="hover:text-red-500">Home</a></li>
-                        <li><a href="courses.html" class="hover:text-red-500">Courses</a></li>
-                        <li><a href="contact.html" class="hover:text-red-500">Contact</a></li>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="workshop.html">Workshop</a></li>
+                        <li><a href="guidance.html">Free Guidance</a></li>
+                        <li><a href="placements.html">Placements</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Resources</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="guidance.html" class="hover:text-red-500">Free Guidance</a></li>
-                        <li><a href="support.html" class="hover:text-red-500">Support</a></li>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Legal</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="terms.html" class="hover:text-red-500">Terms</a></li>
-                        <li><a href="privacy.html" class="hover:text-red-500">Privacy</a></li>
-                    </ul>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Education Street, City, State 12345</p>
+                    <p>📞 +1 (800) 123-4567</p>
+                    <p>📧 info@resyvexinstitute.com</p>
                 </div>
             </div>
-            <hr class="border-gray-700 my-8">
-            <div class="text-center text-gray-400">
-                <p>&copy; 2026 Resyvex Institute. All rights reserved.</p>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Resyvex Institute. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

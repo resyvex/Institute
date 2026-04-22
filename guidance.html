@@ -4,171 +4,283 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Guidance - Resyvex Institute</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="bg-black text-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <span class="text-2xl font-bold text-red-600">Resyvex</span>
-                    <span class="text-lg font-semibold ml-2">Institute</span>
-                </div>
-                <div class="hidden md:flex space-x-6">
-                    <a href="index.html" class="hover:text-red-500 transition">Home</a>
-                    <a href="courses.html" class="hover:text-red-500 transition">Courses</a>
-                    <a href="workshop.html" class="hover:text-red-500 transition">Workshop</a>
-                    <a href="guidance.html" class="hover:text-red-500 transition text-red-500">Free Guidance</a>
-                    <a href="placements.html" class="hover:text-red-500 transition">Placements</a>
-                    <a href="support.html" class="hover:text-red-500 transition">Support</a>
-                    <a href="contact.html" class="hover:text-red-500 transition">Contact</a>
-                </div>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Resyvex<span>Institute</span></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </div>
-    </nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="workshop.html">Workshop</a></li>
+                <li><a href="guidance.html" class="active">Free Guidance</a></li>
+                <li><a href="placements.html">Placements</a></li>
+                <li><a href="student-support.html">Student Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Header -->
-    <section class="bg-gradient-to-r from-red-600 to-red-700 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-5xl font-bold mb-4">Free Career Guidance</h1>
-            <p class="text-xl text-red-100">Expert mentorship to shape your future</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Free Guidance Sessions</h1>
+        <p>Personalized career guidance to help you make informed decisions</p>
+    </section>
+
+    <!-- Guidance Introduction -->
+    <section class="container py-2">
+        <h2 class="section-title">Career Guidance & Counseling</h2>
+        <p class="section-subtitle">Expert advisors to guide you on your educational and career journey</p>
+
+        <div style="background-color: var(--gray-light); padding: 2rem; border-radius: var(--border-radius); margin-bottom: 2rem;">
+            <p style="line-height: 1.8; color: #555;">
+                At Resyvex Institute, we understand that choosing the right career path is crucial for your future success. Our experienced career counselors provide free, personalized guidance sessions to help you explore your interests, identify your strengths, and choose the best course or career option that aligns with your goals and aspirations.
+            </p>
         </div>
     </section>
 
     <!-- Guidance Services -->
-    <section class="py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-8 mb-16">
-                <!-- Service 1 -->
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="text-4xl mb-4">🎯</div>
-                    <h3 class="text-2xl font-bold mb-4">Career Path Consultation</h3>
-                    <p class="text-gray-600 mb-6">Personalized guidance to identify the right career path based on your skills and interests.</p>
-                    <ul class="space-y-3 text-gray-600">
-                        <li>✓ Skill assessment</li>
-                        <li>✓ Industry trends analysis</li>
-                        <li>✓ Career roadmap creation</li>
-                        <li>✓ Placement preparation</li>
-                    </ul>
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Our Guidance Services</h2>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Career Assessment</h3>
+                    <p>Comprehensive assessment to identify your skills, interests, and career preferences. We analyze your strengths and help you understand which careers are best suited for you.</p>
                 </div>
 
-                <!-- Service 2 -->
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="text-4xl mb-4">📚</div>
-                    <h3 class="text-2xl font-bold mb-4">Course Selection Help</h3>
-                    <p class="text-gray-600 mb-6">Get expert advice on choosing the right course that matches your career goals.</p>
-                    <ul class="space-y-3 text-gray-600">
-                        <li>✓ Course recommendations</li>
-                        <li>✓ Duration & difficulty</li>
-                        <li>✓ Job prospects</li>
-                        <li>✓ ROI analysis</li>
-                    </ul>
+                <div class="card">
+                    <h3>Course Selection Help</h3>
+                    <p>Confused about which course to choose? Our counselors will help you select the right course based on your interests, career goals, and market demand.</p>
                 </div>
 
-                <!-- Service 3 -->
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="text-4xl mb-4">💼</div>
-                    <h3 class="text-2xl font-bold mb-4">Resume & Interview Prep</h3>
-                    <p class="text-gray-600 mb-6">Professional guidance for crafting compelling resumes and acing interviews.</p>
-                    <ul class="space-y-3 text-gray-600">
-                        <li>✓ Resume building</li>
-                        <li>✓ Interview coaching</li>
-                        <li>✓ Mock interviews</li>
-                        <li>✓ Communication skills</li>
-                    </ul>
+                <div class="card">
+                    <h3>Career Path Planning</h3>
+                    <p>Create a structured career roadmap with clear milestones and actionable steps to achieve your long-term career goals.</p>
                 </div>
 
-                <!-- Service 4 -->
-                <div class="bg-white border-l-4 border-red-600 shadow-lg rounded-lg p-8">
-                    <div class="text-4xl mb-4">🌟</div>
-                    <h3 class="text-2xl font-bold mb-4">Industry Mentorship</h3>
-                    <p class="text-gray-600 mb-6">One-on-one sessions with industry experts and successful professionals.</p>
-                    <ul class="space-y-3 text-gray-600">
-                        <li>✓ Expert mentors</li>
-                        <li>✓ Real industry insights</li>
-                        <li>✓ Networking opportunities</li>
-                        <li>✓ Continuous support</li>
-                    </ul>
+                <div class="card">
+                    <h3>Skills Gap Analysis</h3>
+                    <p>Identify the skills required for your desired role and develop a strategy to acquire them through our courses and training programs.</p>
                 </div>
+
+                <div class="card">
+                    <h3>Industry Insights</h3>
+                    <p>Get updated information about industry trends, job market demands, and emerging opportunities to make informed career decisions.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Personal Development</h3>
+                    <p>Guidance on developing essential soft skills like communication, leadership, and time management for professional success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Counselors -->
+    <section class="container py-2">
+        <h2 class="section-title">Meet Our Expert Counselors</h2>
+        <p class="section-subtitle">Experienced professionals dedicated to your success</p>
+
+        <div class="card-grid">
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">👨‍💼</div>
+                <h4>Mr. Rajesh Kumar</h4>
+                <p style="color: var(--primary-red); margin-bottom: 1rem;"><strong>Senior Career Counselor</strong></p>
+                <p>15+ years of experience in career counseling and talent management. Specializes in IT and business career pathways.</p>
+            </div>
+
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">👩‍💼</div>
+                <h4>Ms. Priya Sharma</h4>
+                <p style="color: var(--primary-red); margin-bottom: 1rem;"><strong>Career Development Coach</strong></p>
+                <p>12+ years in HR and career development. Specializes in skill assessment and professional growth strategies.</p>
+            </div>
+
+            <div class="card" style="text-align: center;">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">👨‍💼</div>
+                <h4>Mr. Arun Patel</h4>
+                <p style="color: var(--primary-red); margin-bottom: 1rem;"><strong>Industry Expert Advisor</strong></p>
+                <p>10+ years in multiple industries. Provides insights on job market trends and career opportunities.</p>
             </div>
         </div>
     </section>
 
     <!-- How It Works -->
-    <section class="bg-gray-50 py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-12 text-center">How Our Guidance Works</h2>
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
-                    <h3 class="font-bold mb-2">Schedule</h3>
-                    <p class="text-gray-600">Book a free consultation session at your convenience</p>
+    <section class="features bg-light">
+        <div class="container">
+            <h2 class="section-title">How Our Guidance Process Works</h2>
+
+            <div class="feature-item">
+                <div class="feature-icon">1</div>
+                <div class="feature-content">
+                    <h4>Schedule Your Session</h4>
+                    <p>Book a free consultation session at your convenient time. Our counselors are available both online and offline.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
-                    <h3 class="font-bold mb-2">Assess</h3>
-                    <p class="text-gray-600">We understand your goals and background</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">2</div>
+                <div class="feature-content">
+                    <h4>Initial Assessment</h4>
+                    <p>Complete a career assessment questionnaire to help us understand your background, interests, and career goals.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
-                    <h3 class="font-bold mb-2">Plan</h3>
-                    <p class="text-gray-600">Create a personalized career roadmap</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">3</div>
+                <div class="feature-content">
+                    <h4>One-on-One Consultation</h4>
+                    <p>Meet with our counselor for a personalized discussion about your career options and educational pathways.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-red-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
-                    <h3 class="font-bold mb-2">Execute</h3>
-                    <p class="text-gray-600">Get continuous support and guidance</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">4</div>
+                <div class="feature-content">
+                    <h4>Customized Recommendations</h4>
+                    <p>Receive personalized course and career recommendations based on your assessment and goals.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">5</div>
+                <div class="feature-content">
+                    <h4>Action Plan</h4>
+                    <p>Get a detailed action plan with steps to achieve your career goals and timeline for implementation.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">6</div>
+                <div class="feature-content">
+                    <h4>Ongoing Support</h4>
+                    <p>Continuous guidance and support as you progress through your chosen course or career path.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="container py-2">
+        <h2 class="section-title">Success Stories</h2>
+        <p class="section-subtitle">Real stories from students who benefited from our guidance</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                <p><strong>"Amazing guidance services!"</strong><br><br>
+                "The free guidance session helped me identify the right course for my career. The counselor was very patient and professional. I'm now confidently pursuing my dream career!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Priya Verma</strong><br>Data Science Course Student</p>
+            </div>
+
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                <p><strong>"Changed my career direction!"</strong><br><br>
+                "I was lost about which field to choose. The guidance session gave me clarity and confidence. Now I'm pursuing web development and loving every bit of it!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Rohit Singh</strong><br>Web Development Student</p>
+            </div>
+
+            <div class="card">
+                <div style="color: var(--primary-red); margin-bottom: 1rem;">⭐⭐⭐⭐⭐</div>
+                <p><strong>"Best decision ever!"</strong><br><br>
+                "The career counselor helped me understand my strengths and weaknesses. With their guidance, I chose the perfect course and got placed within 3 months!"</p>
+                <p style="margin-top: 1rem; color: #999;"><strong>- Anjali Gupta</strong><br>Digital Marketing Professional</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: white; border-radius: var(--border-radius);">
+                    <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Is the guidance session really free?</h4>
+                    <p>Yes! Our free guidance sessions are completely free of cost. We provide personalized career counseling without any charges.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: white; border-radius: var(--border-radius);">
+                    <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">How long is each session?</h4>
+                    <p>Each guidance session typically lasts between 45 minutes to 1 hour, depending on the complexity of your situation.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: white; border-radius: var(--border-radius);">
+                    <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Can I schedule multiple sessions?</h4>
+                    <p>Yes, you can schedule follow-up sessions if needed. We provide continuous guidance throughout your learning journey.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: white; border-radius: var(--border-radius);">
+                    <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">What should I prepare for the session?</h4>
+                    <p>Come with an open mind and your career goals. Bring any documents related to your academic background and work experience if available.</p>
+                </div>
+
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background-color: white; border-radius: var(--border-radius);">
+                    <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Is the session confidential?</h4>
+                    <p>Absolutely! All information shared during the session is completely confidential and used only for your benefit.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="bg-black text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-4">Ready to Shape Your Future?</h2>
-            <p class="text-xl text-gray-300 mb-8">Book your free guidance session today</p>
-            <a href="contact.html" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold inline-block transition">Book Free Session</a>
-        </div>
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready for Your Free Guidance Session?</h2>
+        <p style="margin-bottom: 2rem;">Let our experts help you plan your career path</p>
+        <a href="contact.html" class="btn btn-primary">Book Your Session Now</a>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <h3 class="text-xl font-bold text-red-600 mb-4">Resyvex Institute</h3>
-                    <p class="text-gray-400">Empowering minds, building futures.</p>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Resyvex Institute is a premier educational institution dedicated to providing world-class education and professional training.</p>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Quick Links</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="index.html" class="hover:text-red-500">Home</a></li>
-                        <li><a href="courses.html" class="hover:text-red-500">Courses</a></li>
-                        <li><a href="contact.html" class="hover:text-red-500">Contact</a></li>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="workshop.html">Workshop</a></li>
+                        <li><a href="guidance.html">Free Guidance</a></li>
+                        <li><a href="placements.html">Placements</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Resources</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="guidance.html" class="hover:text-red-500">Free Guidance</a></li>
-                        <li><a href="support.html" class="hover:text-red-500">Support</a></li>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4 class="font-semibold mb-4">Legal</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="terms.html" class="hover:text-red-500">Terms</a></li>
-                        <li><a href="privacy.html" class="hover:text-red-500">Privacy</a></li>
-                    </ul>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Education Street, City, State 12345</p>
+                    <p>📞 +1 (800) 123-4567</p>
+                    <p>📧 info@resyvexinstitute.com</p>
                 </div>
             </div>
-            <hr class="border-gray-700 my-8">
-            <div class="text-center text-gray-400">
-                <p>&copy; 2026 Resyvex Institute. All rights reserved.</p>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Resyvex Institute. All rights reserved.</p>
+                <p>Designed with ❤️ for Excellence in Education</p>
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
