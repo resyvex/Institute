@@ -269,11 +269,73 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="hero" style="padding: 4rem 2rem;">
-        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Register for Our Next Workshop</h2>
-        <p style="margin-bottom: 2rem;">Limited seats available. Secure your spot today</p>
-        <a href="contact.html" class="btn btn-primary">Register Now</a>
+    <!-- Workshop Registration Form Section -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Workshop Registration</h2>
+            <p class="section-subtitle">Sign up for an upcoming workshop and enhance your skills</p>
+
+            <form id="workshopForm" class="contact-form" style="max-width: 700px; margin: 0 auto;">
+                <div class="form-group">
+                    <label for="ws-name">Full Name *</label>
+                    <input type="text" id="ws-name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="ws-email">Email Address *</label>
+                    <input type="email" id="ws-email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="ws-phone">Phone Number *</label>
+                    <input type="tel" id="ws-phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="ws-workshop">Select Workshop *</label>
+                    <select id="ws-workshop" name="workshop" required>
+                        <option value="">Select a workshop</option>
+                        <option value="basics">Semiconductor & Diode Basics</option>
+                        <option value="power">Power Electronics & Applications</option>
+                        <option value="pcb-practical">Practical PCB Design</option>
+                        <option value="microcontroller">Microcontroller Programming</option>
+                        <option value="fpga-design">FPGA Design Workshop</option>
+                        <option value="iot-esp">IoT with Arduino & ESP32</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ws-type">Workshop Type *</label>
+                    <select id="ws-type" name="workshop-type" required>
+                        <option value="">Select type</option>
+                        <option value="free">Free Workshop</option>
+                        <option value="paid">Paid Workshop</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ws-organization">Your Organization / Institution</label>
+                    <input type="text" id="ws-organization" name="organization" placeholder="Company name or educational institution">
+                </div>
+
+                <div class="form-group">
+                    <label for="ws-experience">Experience Level *</label>
+                    <select id="ws-experience" name="experience" required>
+                        <option value="">Select your level</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ws-expectations">What are your expectations from this workshop?</label>
+                    <textarea id="ws-expectations" name="expectations" placeholder="Share your learning goals and what you hope to gain..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Register for Workshop</button>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->

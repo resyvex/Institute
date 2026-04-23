@@ -240,11 +240,69 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="hero" style="padding: 4rem 2rem;">
-        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Enroll in Your Desired Course Today</h2>
-        <p style="margin-bottom: 2rem;">Start your professional journey with us</p>
-        <a href="contact.html" class="btn btn-primary">Get More Information</a>
+    <!-- Admission Enquiry Form Section -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Admission Enquiry Form</h2>
+            <p class="section-subtitle">Tell us about your interests and let's find the perfect course for you</p>
+
+            <form id="admissionForm" class="contact-form" style="max-width: 700px; margin: 0 auto;">
+                <div class="form-group">
+                    <label for="adm-name">Full Name *</label>
+                    <input type="text" id="adm-name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="adm-email">Email Address *</label>
+                    <input type="email" id="adm-email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="adm-phone">Phone Number *</label>
+                    <input type="tel" id="adm-phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="adm-background">Current Educational Background *</label>
+                    <select id="adm-background" name="background" required>
+                        <option value="">Select your qualification</option>
+                        <option value="12th">12th Pass</option>
+                        <option value="diploma">Diploma</option>
+                        <option value="btech">B.Tech</option>
+                        <option value="bsc">B.Sc</option>
+                        <option value="working">Working Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="adm-experience">Years of Experience *</label>
+                    <input type="number" id="adm-experience" name="experience" required placeholder="0" min="0">
+                </div>
+
+                <div class="form-group">
+                    <label for="adm-course">Course(s) of Interest *</label>
+                    <select id="adm-course" name="course" required>
+                        <option value="">Select a course</option>
+                        <option value="semiconductor">Semiconductor Fundamentals</option>
+                        <option value="analog">Analog Electronics</option>
+                        <option value="digital">Digital Electronics</option>
+                        <option value="pcb">PCB Design & Layout</option>
+                        <option value="embedded">Embedded Systems</option>
+                        <option value="fpga">FPGA Design</option>
+                        <option value="iot">IoT Development</option>
+                        <option value="other-course">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="adm-interest">Why are you interested in this course? *</label>
+                    <textarea id="adm-interest" name="interest" required placeholder="Tell us about your career goals and what interests you about this course..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Enquiry</button>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->

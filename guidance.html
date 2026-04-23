@@ -239,11 +239,83 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="hero" style="padding: 4rem 2rem;">
-        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready for Your Free Guidance Session?</h2>
-        <p style="margin-bottom: 2rem;">Let our experts help you plan your career path</p>
-        <a href="contact.html" class="btn btn-primary">Book Your Session Now</a>
+    <!-- Free Career Guidance Booking Form Section -->
+    <section class="bg-light py-2">
+        <div class="container">
+            <h2 class="section-title">Book Your Free Guidance Session</h2>
+            <p class="section-subtitle">Schedule a personalized counseling session with our career experts</p>
+
+            <form id="guidanceForm" class="contact-form" style="max-width: 700px; margin: 0 auto;">
+                <div class="form-group">
+                    <label for="gd-name">Full Name *</label>
+                    <input type="text" id="gd-name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="gd-email">Email Address *</label>
+                    <input type="email" id="gd-email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="gd-phone">Phone Number *</label>
+                    <input type="tel" id="gd-phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="gd-status">Current Status *</label>
+                    <select id="gd-status" name="status" required>
+                        <option value="">Select your current status</option>
+                        <option value="student-12th">12th Pass Student</option>
+                        <option value="diploma-student">Diploma Student</option>
+                        <option value="btec-student">B.Tech Student</option>
+                        <option value="graduate">Graduate</option>
+                        <option value="working">Working Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gd-guidance-type">Type of Guidance Needed *</label>
+                    <select id="gd-guidance-type" name="guidance-type" required>
+                        <option value="">Select guidance type</option>
+                        <option value="career-clarity">Career Clarity Sessions</option>
+                        <option value="course-recommendation">Course Recommendation</option>
+                        <option value="learning-path">Learning Path Planning</option>
+                        <option value="skill-development">Skill Development Strategy</option>
+                        <option value="general">General Career Counseling</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gd-session-type">Preferred Session Type *</label>
+                    <select id="gd-session-type" name="session-type" required>
+                        <option value="">Select session type</option>
+                        <option value="google-meet">Google Meet (Online)</option>
+                        <option value="in-person">In-Person Counseling</option>
+                        <option value="either">Either (Flexible)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gd-availability">Your Preferred Time *</label>
+                    <select id="gd-availability" name="availability" required>
+                        <option value="">Select availability</option>
+                        <option value="weekday-morning">Weekday Morning (9 AM - 12 PM)</option>
+                        <option value="weekday-afternoon">Weekday Afternoon (12 PM - 5 PM)</option>
+                        <option value="weekday-evening">Weekday Evening (5 PM - 9 PM)</option>
+                        <option value="weekend">Weekend (Saturday-Sunday)</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gd-interests">Your Career Interests / Goals</label>
+                    <textarea id="gd-interests" name="interests" placeholder="Tell us about your career interests, goals, and any specific concerns..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Book Free Session</button>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->
