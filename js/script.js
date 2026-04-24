@@ -36,7 +36,90 @@ document.addEventListener('DOMContentLoaded', function() {
       validateAndSubmitForm(this);
     });
   }
+
+  // Initialize scroll animations
+  initScrollAnimations();
+
+  // Add animations to elements with data attributes
+  initDataAttributeAnimations();
 });
+
+// Initialize scroll-triggered animations using Intersection Observer
+function initScrollAnimations() {
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Animate cards
+        if (entry.target.classList.contains('card') && !entry.target.classList.contains('animate-fadeInUp')) {
+          entry.target.classList.add('animate-fadeInUp');
+          entry.target.style.opacity = '1';
+        }
+
+        // Animate feature items
+        if (entry.target.classList.contains('feature-item') && !entry.target.classList.contains('animate-slideInFromLeft')) {
+          entry.target.classList.add('animate-slideInFromLeft');
+          entry.target.style.opacity = '1';
+        }
+
+        // Animate course/workshop items
+        if ((entry.target.classList.contains('course-item') || entry.target.classList.contains('workshop-item')) && !entry.target.classList.contains('animate-slideInFromLeft')) {
+          entry.target.classList.add('animate-slideInFromLeft');
+          entry.target.style.opacity = '1';
+        }
+
+        // Animate stat boxes
+        if (entry.target.classList.contains('stat-box') && !entry.target.classList.contains('animate-popIn')) {
+          entry.target.classList.add('animate-popIn');
+          entry.target.style.opacity = '1';
+        }
+
+        // Animate section titles
+        if (entry.target.classList.contains('section-title') && !entry.target.classList.contains('animate-fadeInDown')) {
+          entry.target.classList.add('animate-fadeInDown');
+        }
+
+        // Animate section subtitles
+        if (entry.target.classList.contains('section-subtitle') && !entry.target.classList.contains('animate-fadeInUp')) {
+          entry.target.classList.add('animate-fadeInUp');
+        }
+      }
+    });
+  }, observerOptions);
+
+  // Observe all animatable elements
+  const animatableElements = document.querySelectorAll('.card, .feature-item, .course-item, .workshop-item, .stat-box, .section-title, .section-subtitle');
+  animatableElements.forEach(element => observer.observe(element));
+}
+
+// Handle data-animate attribute for custom animations
+function initDataAttributeAnimations() {
+  const animatableElements = document.querySelectorAll('[data-animate]');
+  
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const animationType = entry.target.getAttribute('data-animate');
+        const animationDelay = entry.target.getAttribute('data-delay') || '0s';
+        
+        entry.target.classList.add(`animate-${animationType}`);
+        entry.target.style.animationDelay = animationDelay;
+        entry.target.style.opacity = '1';
+      }
+    });
+  }, observerOptions);
+
+  animatableElements.forEach(element => observer.observe(element));
+}
 
 // Set active navigation link
 function setActiveNav() {
