@@ -1,0 +1,40 @@
+# Robots.txt for Resyvex Institute
+# Allow search engines to crawl the website
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /courses.html
+Allow: /workshop.html
+Allow: /guidance.html
+Allow: /placements.html
+Allow: /student-support.html
+Allow: /contact.html
+Allow: /careers.html
+Allow: /terms.html
+Allow: /privacy.html
+Allow: /css/
+Allow: /Image/
+Allow: /js/
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+Disallow: /search?
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Crawl-Delay (seconds) for polite crawling
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://resyvexinstitute.com/sitemap.xml
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+
+# Bing-specific
+User-agent: Bingbot
+Allow: /
