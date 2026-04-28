@@ -785,6 +785,40 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+/* Social Media Links in Footer */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(230, 57, 70, 0.15);
+  color: var(--primary-red);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.social-links a:hover {
+  background-color: var(--primary-red);
+  color: var(--light-white);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(230, 57, 70, 0.3);
+}
+
+.social-links a i {
+  font-size: 18px;
+}
+
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
