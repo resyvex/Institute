@@ -42,6 +42,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Add animations to elements with data attributes
   initDataAttributeAnimations();
+
+  // Initialize WhatsApp Widget
+  initWhatsAppWidget();
 });
 
 // Initialize scroll-triggered animations using Intersection Observer
@@ -221,3 +224,41 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// ========================================
+// WhatsApp Widget Initialization
+// ========================================
+
+function initWhatsAppWidget() {
+  // WhatsApp Phone Number (India format: +91 9003041889)
+  const whatsappNumber = '+919003041889';
+  const whatsappMessage = encodeURIComponent('Hello! I am interested in learning more about Resyvex Institute courses and services.');
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  
+  // Create WhatsApp widget container
+  const whatsappWidget = document.createElement('div');
+  whatsappWidget.className = 'whatsapp-widget';
+  
+  // Create WhatsApp button
+  const whatsappButton = document.createElement('a');
+  whatsappButton.href = whatsappLink;
+  whatsappButton.className = 'whatsapp-button';
+  whatsappButton.target = '_blank';
+  whatsappButton.rel = 'noopener noreferrer';
+  whatsappButton.title = 'Contact us on WhatsApp';
+  whatsappButton.innerHTML = '<i class="fab fa-whatsapp"></i>';
+  
+  // Create tooltip
+  const tooltip = document.createElement('div');
+  tooltip.className = 'whatsapp-tooltip';
+  tooltip.textContent = 'Chat with us on WhatsApp!';
+  
+  // Append tooltip to button
+  whatsappButton.appendChild(tooltip);
+  
+  // Append button to widget
+  whatsappWidget.appendChild(whatsappButton);
+  
+  // Append widget to body
+  document.body.appendChild(whatsappWidget);
+}

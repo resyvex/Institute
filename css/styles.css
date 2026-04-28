@@ -1041,6 +1041,132 @@ footer {
 }
 
 /* ========================================
+   FLOATING WHATSAPP WIDGET
+   ======================================== */
+
+.whatsapp-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #25d366, #20ba5e);
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideUp 0.5s ease-out;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-button:active {
+  transform: scale(0.95);
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  bottom: 75px;
+  right: 0;
+  background-color: var(--dark-black);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-tooltip::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: 8px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid var(--dark-black);
+}
+
+.whatsapp-widget:hover .whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+  animation: slideUpTip 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpTip {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .whatsapp-button {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+  }
+  
+  .whatsapp-tooltip {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-button {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  .whatsapp-tooltip {
+    display: none;
+  }
+}
+
+/* ========================================
    RESPONSIVE IMPROVEMENTS FOR HOME PAGE
    ======================================== */
 
