@@ -166,10 +166,16 @@ function validateAndSubmitForm(form) {
     return false;
   }
 
-  // If validation passes, show success message
-  showNotification('Thank you! Your message has been received. We will contact you soon.', 'success');
-  form.reset();
+  // If validation passes, submit the form to Google Apps Script
+  const iframe = document.querySelector('iframe[name="hidden_iframe"]');
+  if (iframe) {
+    iframe.onload = function() {
+      showNotification('Thank you! Your message has been received. We will contact you soon.', 'success');
+      form.reset();
+    };
+  }
   
+  form.submit();
   return false;
 }
 
