@@ -298,7 +298,7 @@
             <h2 class="section-title">Workshop Registration</h2>
             <p class="section-subtitle">Sign up for an upcoming workshop and enhance your skills</p>
 
-            <form id="workshopForm" class="contact-form" style="max-width: 700px; margin: 0 auto;">
+            <form action="https://script.google.com/macros/s/AKfycbwLJ2BUm_vLB_cGdsrwroYJ3EBbzquZ-JyPCM-Uz9C7e-Hs10ajj3F7yV8odUHG3eGF/exec" method="POST" target="hidden_iframe" id="workshopForm" class="contact-form" style="max-width: 700px; margin: 0 auto;">
                 <div class="form-group">
                     <label for="ws-name">Full Name *</label>
                     <input type="text" id="ws-name" name="name" required placeholder="Enter your full name">
@@ -367,6 +367,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary" style="width: 100%;">Register for Workshop</button>
             </form>
+            <iframe name="hidden_iframe" style="display:none;"></iframe>
         </div>
     </section>
 
