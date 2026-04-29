@@ -298,25 +298,25 @@
             <h2 class="section-title">Workshop Registration</h2>
             <p class="section-subtitle">Sign up for an upcoming workshop and enhance your skills</p>
 
-            <form action="https://script.google.com/macros/s/AKfycbwLJ2BUm_vLB_cGdsrwroYJ3EBbzquZ-JyPCM-Uz9C7e-Hs10ajj3F7yV8odUHG3eGF/exec" method="POST" target="hidden_iframe" id="workshopForm" class="contact-form" style="max-width: 700px; margin: 0 auto;">
+            <form action="https://script.google.com/macros/s/AKfycbwFC12IvNd0WlA-KrUVkWRL5ASR_U6KlDcV57gk0su2_DY91rAUMUPAIPPzX5tSKDfM/exec" method="POST" target="hidden_iframe" class="contact-form" style="max-width: 700px; margin: 0 auto;">
                 <div class="form-group">
                     <label for="ws-name">Full Name *</label>
-                    <input type="text" id="ws-name" name="name" required placeholder="Enter your full name">
+                    <input type="text" id="ws-name" name="w-name" required placeholder="Enter your full name">
                 </div>
 
                 <div class="form-group">
                     <label for="ws-email">Email Address *</label>
-                    <input type="email" id="ws-email" name="email" required placeholder="Enter your email address">
+                    <input type="email" id="ws-email" name="w-email" required placeholder="Enter your email address">
                 </div>
 
                 <div class="form-group">
                     <label for="ws-phone">Phone Number *</label>
-                    <input type="tel" id="ws-phone" name="phone" required placeholder="Enter your phone number">
+                    <input type="tel" id="ws-phone" name="w-phone" required placeholder="Enter your phone number">
                 </div>
 
                 <div class="form-group">
                     <label for="ws-workshop">Select Workshop/Course Interest *</label>
-                    <select id="ws-workshop" name="workshop" required>
+                    <select id="ws-workshop" name="wworkshop" required>
                         <option value="">Select a course/workshop</option>
                         <option value="basic-electronics">Basic Electronics</option>
                         <option value="advanced-electronics">Advanced Electronics</option>
@@ -332,7 +332,7 @@
 
                 <div class="form-group">
                     <label for="ws-type">Workshop Type *</label>
-                    <select id="ws-type" name="workshop-type" required>
+                    <select id="ws-type" name="w-workshop-type" required>
                         <option value="">Select type</option>
                         <option value="free">Free Workshop</option>
                         <option value="paid">Paid Workshop</option>
@@ -341,12 +341,12 @@
 
                 <div class="form-group">
                     <label for="ws-organization">Your Organization / Institution</label>
-                    <input type="text" id="ws-organization" name="organization" placeholder="Company name or educational institution">
+                    <input type="text" id="ws-organization" name="w-organization" placeholder="Company name or educational institution">
                 </div>
 
                 <div class="form-group">
                     <label for="ws-experience">Experience Level *</label>
-                    <select id="ws-experience" name="experience" required>
+                    <select id="ws-experience" name="w-experience" required>
                         <option value="">Select your level</option>
                         <option value="beginner">Beginner</option>
                         <option value="intermediate">Intermediate</option>
@@ -356,18 +356,18 @@
 
                 <div class="form-group">
                     <label for="ws-expectations">What are your expectations from this workshop?</label>
-                    <textarea id="ws-expectations" name="expectations" placeholder="Share your learning goals and what you hope to gain..."></textarea>
+                    <textarea id="ws-expectations" name="w-expectations" placeholder="Share your learning goals and what you hope to gain..."></textarea>
                 </div>
 
                 <div class="form-group" style="display: flex; align-items: flex-start; gap: 0.8rem;">
-                    <input type="checkbox" id="consent-checkbox" name="consent" required style="margin-top: 0.5rem; width: 1.25rem; height: 1.25rem; cursor: pointer;">
+                    <input type="checkbox" id="consent-checkbox" name="w-consent" required style="margin-top: 0.5rem; width: 1.25rem; height: 1.25rem; cursor: pointer;">
                     <label for="consent-checkbox" style="margin: 0; margin-top: 0.3rem; font-size: 0.95rem; cursor: pointer;">
                         I agree to the <a href="terms.html" style="color: var(--primary-red); text-decoration: none;" target="_blank">Terms & Conditions</a> and <a href="privacy.html" style="color: var(--primary-red); text-decoration: none;" target="_blank">Privacy Policy</a> *
                     </label>
                 </div>
                 <button type="submit" class="btn btn-primary" style="width: 100%;">Register for Workshop</button>
             </form>
-            <iframe name="hidden_iframe" style="display:none;"></iframe>
+            <iframe name="hidden_iframe" style="display:none;">sent</iframe>
         </div>
     </section>
 
@@ -409,8 +409,8 @@
                 <div class="footer-section">
                     <h4>Contact Info</h4>
                     <p><i class="fas fa-map-marker-alt"></i> Ground Floor, 18,
-Thiruvalluvar St, Rajbai Nagar,
-Avadi, Tamil Nadu 600071</p>
+                            Thiruvalluvar St, Rajbai Nagar,
+                            Avadi, Tamil Nadu 600071</p>
                     <p><i class="fas fa-phone"></i> +91 90030 41889</p>
                     <p><i class="fas fa-envelope"></i> info@resyvexinstitute.com</p>
                 </div>
